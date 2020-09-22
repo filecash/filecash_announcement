@@ -18,7 +18,7 @@
 
 同时，今天会发布[sha512算法的测试版执行文件](https://github.com/filecoincash/filecoincash_doc/releases/tag/benchy-sha512-beta) ，矿工可使用该执行文件测试设备性能。
 
-附: [3800X/i7-8700 SHA512 对比结果](./bench/README.md)
+附：[3800X/i7-8700 SHA512 对比结果](./bench/README.md)
 
 
 使用方法参考：https://github.com/filecash/filecash_announcement/bench/
@@ -73,7 +73,7 @@ We are glad that the Filecash community was formally established on September 18
 These two improvements will significantly reduce memory usage and lower the threshold for participation.
 At the same time, [the executive file of the test version of sha512 algorithm](https://github.com/filecoincash/filecoincash_doc/releases/tag/benchy-sha512-beta) will be released today, which can be used by miners to test equipment performance.
 
-Attach:[3800X/i7-8700 SHA512 Comparison results](./bench/README.md)
+Attach: [3800X/i7-8700 SHA512 Comparison results](./bench/README.md)
 
 Usage reference：https://github.com/filecash/filecash_announcement/bench/
 
