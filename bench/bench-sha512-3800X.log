@@ -1,0 +1,42 @@
+root@fc-2-201:~/bench# tail -f log-bench.log 
+2020-09-20T15:41:37.241 INFO fil_proofs_tooling::shared > creating replicas: SectorSize(4294967296) - 1
+2020-09-20T15:41:37.241 INFO fil_proofs_tooling::shared > creating sector 0/1
+2020-09-20T15:41:37.242 INFO fil_proofs_tooling::shared > create_piece
+2020-09-20T15:41:57.272 INFO fil_proofs_tooling::shared > adding pieces
+2020-09-20T15:41:57.272 INFO fil_proofs_tooling::shared > add piece 0
+2020-09-20T15:41:57.272 INFO filecoin_proofs::api > add_piece:start
+2020-09-20T15:42:42.528 INFO filecoin_proofs::api > add_piece:finish
+2020-09-20T15:42:42.763 INFO filecoin_proofs::api::seal > seal_pre_commit_phase1:start
+2020-09-20T15:43:03.586 INFO filecoin_proofs::api::seal > building merkle tree for the original data
+2020-09-20T15:43:29.003 INFO filecoin_proofs::api::seal > verifying pieces
+2020-09-20T15:43:29.003 INFO filecoin_proofs::pieces > verifying 1 pieces
+2020-09-20T15:43:29.003 INFO storage_proofs_porep::stacked::vanilla::proof > replicate_phase1
+2020-09-20T15:43:29.003 INFO storage_proofs_porep::stacked::vanilla::proof > generate labels
+2020-09-20T15:43:29.003 INFO storage_proofs_porep::stacked::vanilla::graph > using parent_cache[2048 / 134217728]
+2020-09-20T15:43:29.003 INFO storage_proofs_porep::stacked::vanilla::cache > parent cache: opening /var/tmp/filecoin-parents/v28-sdr-parent-7ce3cd6faeab997462b4ea261f0e5db9a07db4ce13fd3ac9787ea43144472a90.cache
+2020-09-20T15:43:29.003 INFO storage_proofs_porep::stacked::vanilla::cache > parent cache: opened
+2020-09-20T15:43:29.003 INFO storage_proofs_porep::stacked::vanilla::proof > generating layer: 1
+2020-09-20T15:54:21.357 INFO storage_proofs_porep::stacked::vanilla::proof >   storing labels on disk
+2020-09-20T15:54:22.690 INFO storage_proofs_porep::stacked::vanilla::proof >   generated layer 1 store with id layer-1
+2020-09-20T15:54:22.690 INFO storage_proofs_porep::stacked::vanilla::proof >   setting exp parents
+layer 1,  use 10.883333 min
+2020-09-20T15:54:22.690 INFO storage_proofs_porep::stacked::vanilla::proof > generating layer: 2
+2020-09-20T16:05:55.688 INFO storage_proofs_porep::stacked::vanilla::proof >   storing labels on disk
+2020-09-20T16:05:56.989 INFO storage_proofs_porep::stacked::vanilla::proof >   generated layer 2 store with id layer-2
+2020-09-20T16:05:56.989 INFO storage_proofs_porep::stacked::vanilla::proof >   setting exp parents
+layer 2,  use 11.566667 min
+2020-09-20T16:05:56.989 INFO storage_proofs_porep::stacked::vanilla::proof > generating layer: 3
+2020-09-20T16:17:24.959 INFO storage_proofs_porep::stacked::vanilla::proof >   storing labels on disk
+2020-09-20T16:17:26.253 INFO storage_proofs_porep::stacked::vanilla::proof >   generated layer 3 store with id layer-3
+2020-09-20T16:17:26.253 INFO storage_proofs_porep::stacked::vanilla::proof >   setting exp parents
+layer 3,  use 11.483334 min
+2020-09-20T16:17:26.253 INFO storage_proofs_porep::stacked::vanilla::proof > generating layer: 4
+2020-09-20T16:35:37.814 INFO storage_proofs_porep::stacked::vanilla::proof >   storing labels on disk
+2020-09-20T16:35:39.417 INFO storage_proofs_porep::stacked::vanilla::proof >   generated layer 4 store with id layer-4
+2020-09-20T16:35:39.417 INFO storage_proofs_porep::stacked::vanilla::proof >   setting exp parents
+layer 4,  use 18.216667 min
+2020-09-20T16:35:39.417 INFO storage_proofs_porep::stacked::vanilla::proof > generating layer: 5
+2020-09-20T16:56:25.014 INFO storage_proofs_porep::stacked::vanilla::proof >   setting exp parents
+layer 5,  use 20.75 min
+2020-09-20T16:56:25.459 INFO filecoin_proofs::api::seal > seal_pre_commit_phase1:finish
+P1 use 73.7 min
