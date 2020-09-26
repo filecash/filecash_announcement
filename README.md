@@ -9,10 +9,12 @@
 
 很高兴Filecash社区在9月18日正式成立，将于9月19日晚些时候开放Github代码库，前期出于保护项目的考虑，测试阶段只会开放部分源代码，在主网上线前开源全部代码。
 
+#### 9月25日发布的[第三个版本](https://github.com/filecoincash/lotus/releases/tag/v0.7.0-beta1-sha256) ，做了如下改进：
+- 同步代码至0.7.0
+
 #### 9月23日发布的[第二个版本](https://github.com/filecoincash/lotus/releases/tag/v0.5.7-beta2) ，做了如下改进：
 - 封装修改为4G/16G版本。
 - P1部分封装层数修改为2层。(2层方便快速出块，后期会调整为5层)
-
 
 #### 9月19日发布的[第一个版本](https://github.com/filecoincash/lotus/releases/tag/v0.5.7-beta) ，做了如下改进：
 - 封装修改为4G版本。
@@ -69,9 +71,12 @@ nohup env FIL_PROOFS_USE_GPU_COLUMN_BUILDER=1 FIL_PROOFS_USE_GPU_TREE_BUILDER=1 
 
 We are glad that the Filecash community was formally established on September 18th, and will open the Github code base later on September 19th. In the early stage, for the sake of protecting the project, only part of the source code will be opened in the testing stage, and all the code will be opened before the main network comes online.
 
+#### [third version](https://github.com/filecoincash/lotus/releases/tag/v0.7.0-beta1-sha256) released on September 25 ,The following improvements have been made:
+- Sync code to 0.7.0
+
 #### [second version](https://github.com/filecoincash/lotus/releases/tag/v0.5.7-beta2) released on September 23 ,The following improvements have been made:
--The encapsulation was modified to 4G / 16g version.
--The number of encapsulation layers in P1 is changed to 2 layers. (2 layers are convenient for quick block production, and will be adjusted to 5 layers later)
+- The encapsulation was modified to 4G / 16g version.
+- The number of encapsulation layers in P1 is changed to 2 layers. (2 layers are convenient for quick block production, and will be adjusted to 5 layers later)
 
 #### [first version](https://github.com/filecoincash/lotus/releases/tag/v0.5.7-beta) released on september 19 ,The following improvements have been made:
 - Package is modified to 4G version.
