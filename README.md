@@ -10,6 +10,14 @@
 
 很高兴Filecash社区在9月18日正式成立，将于9月19日晚些时候开放Github代码库，前期出于保护项目的考虑，测试阶段只会开放部分源代码，在主网上线前开源全部代码。
 
+#### 10月15日发布的[第六个版本](https://github.com/filecash/lotus/releases/tag/filecash-v0.7.0) ，做了如下改进：
+- 密封大小调整为4G。
+- PC1阶段SDR层数调整为8层。
+- PC2阶段调整为1层。
+- 调整算法为SHA512。
+- 调整经济模型。
+- 开放所有源码。
+
 #### 9月29日发布的[第五个版本](https://github.com/filecash/lotus/releases/tag/filescash-incentive-testnet-v0.7.0-beta1) ，做了如下改进：
 - 开启Filecash激励测试网
 
@@ -75,6 +83,14 @@ nohup env FIL_PROOFS_USE_GPU_COLUMN_BUILDER=1 FIL_PROOFS_USE_GPU_TREE_BUILDER=1 
 - Telegram: https://t.me/FilecashGlobal
 
 We are glad that the Filecash community was formally established on September 18th, and will open the Github code base later on September 19th. In the early stage, for the sake of protecting the project, only part of the source code will be opened in the testing stage, and all the code will be opened before the main network comes online.
+
+#### [sixth version](https://github.com/filecash/lotus/releases/tag/filecash-v0.7.0) released on October 15 ,The following improvements have been made:
+- Packaging size changed to 4G. 
+- SDR layer at PC1 stage changed to 8. 
+- SDR layer at PC2 stage changed to 1.
+- Algorithm SHA512 applied. 
+- Economic model adjusted. 
+- All source codes open to public. 
 
 #### [fourth version](https://github.com/filecash/lotus/releases/tag/filescash-incentive-testnet-v0.7.0-beta1) released on September 28 ,The following improvements have been made:
 - Open filecash incentive testnet.
