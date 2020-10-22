@@ -82,9 +82,9 @@ nohup env FIL_PROOFS_USE_GPU_COLUMN_BUILDER=1 FIL_PROOFS_USE_GPU_TREE_BUILDER=1 
 - Medium: https://medium.com/@filecash
 - Telegram: https://t.me/FilecashGlobal
 
-We are glad that the Filecash community was formally established on September 18th, and will open the Github code base later on September 19th. In the early stage, for the sake of protecting the project, only part of the source code will be opened in the testing stage, and all the code will be opened before the main network comes online.
+The FileCash community was formally established on September 18th, 2020, and opened the Github code base on September 19th, 2020. In the initial stage, only some part of the source code will be available during the test stage. The entire source code is planned to be unveiled after mainnet’s launch.
 
-#### [sixth version](https://github.com/filecash/lotus/releases/tag/filecash-v0.7.0) released on October 15 ,The following improvements have been made:
+#### [The sixth version](https://github.com/filecash/lotus/releases/tag/filecash-v0.7.0) released on October 15 ,The following improvements have been made:
 - Packaging size changed to 4G. 
 - SDR layer at PC1 stage changed to 8. 
 - SDR layer at PC2 stage changed to 1.
@@ -92,28 +92,29 @@ We are glad that the Filecash community was formally established on September 18
 - Economic model adjusted. 
 - All source codes open to public. 
 
-#### [fourth version](https://github.com/filecash/lotus/releases/tag/filescash-incentive-testnet-v0.7.0-beta1) released on September 28 ,The following improvements have been made:
+#### [The fourth version](https://github.com/filecash/lotus/releases/tag/filescash-incentive-testnet-v0.7.0-beta1) released on September 28 ,The following improvements have been made:
 - Open filecash incentive testnet.
 
-#### [fourth version](https://github.com/filecash/lotus/releases/tag/filescash-testnet-v0.7.0-beta2-sha512) released on September 28 ,The following improvements have been made:
+#### [The fourth version](https://github.com/filecash/lotus/releases/tag/filescash-testnet-v0.7.0-beta2-sha512) released on September 28 ,The following improvements have been made:
 - Sha256 algorithm is modified to sha512 algorithm. Under sha512 algorithm, AMD processor has the same competitiveness as Intel processor.
 
-#### [third version](https://github.com/filecoincash/lotus/releases/tag/v0.7.0-beta1-sha256) released on September 25 ,The following improvements have been made:
+#### [The third version](https://github.com/filecoincash/lotus/releases/tag/v0.7.0-beta1-sha256) released on September 25 ,The following improvements have been made:
 - Sync code to 0.7.0
 
-#### [second version](https://github.com/filecoincash/lotus/releases/tag/v0.5.7-beta2) released on September 23 ,The following improvements have been made:
+#### [The second version](https://github.com/filecoincash/lotus/releases/tag/v0.5.7-beta2) released on September 23 ,The following improvements have been made:
 - The encapsulation was modified to 4G / 16g version.
 - The number of encapsulation layers in P1 is changed to 2 layers. (2 layers are convenient for quick block production, and will be adjusted to 5 layers later)
 
-#### [first version](https://github.com/filecoincash/lotus/releases/tag/v0.5.7-beta) released on september 19 ,The following improvements have been made:
+#### [The first version](https://github.com/filecoincash/lotus/releases/tag/v0.5.7-beta) released on september 19 ,The following improvements have been made:
 - Package is modified to 4G version.
 - The number of packaging layers in P1 part is modified to 5 layers.
 These two improvements will significantly reduce memory usage and lower the threshold for participation.
 At the same time, [the executive file of the test version of sha512 algorithm](https://github.com/filecoincash/filecoincash_doc/releases/tag/benchy-sha512-beta) will be released today, which can be used by miners to test equipment performance.
 
-After the community was announced to be established, after a great deal of community opinion communication, most miners proposed to give some test time, prepare the equipment test in advance and then open the test reward network. During this period, we will fully communicate with the community and miners and we will formulate test reward network rules that meet the expectations of the community and miners.
+After the community was established, with the effective communication in the community, most of the miners proposed to provide the test period to prepare for the equipment 
+test in advance before open the test reward network. During this test period, we will continually communicate with the community and the miners and will formulate the test reward network rules that meet the expectations of the community and the miners.
 
-#### In the next version, there will be a bigger update:
+#### In the next version, there will be bigger updates:
 - Initiate the proposal of the first edition of Filecash economic model.
 - Issue the detailed rules of the test reward network and confirm the opening time of the test reward network.
 
