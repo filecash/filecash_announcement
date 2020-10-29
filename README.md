@@ -18,7 +18,10 @@
 - 请将免抵押网络Step1的挖矿地址和`lotus-miner info`命令界面截图发送至基金会邮箱filecash@file.cash作为非对称映射的部分参考。
 欢迎各位参与者在社区中积极反馈，参与Filecash生态的建设。
 
-亲爱的Filecash爱好者，Filecash现已开放[Step2水龙头](https://faucet.file.cash/)，以下是水龙头使用注意事项：
+编译方法：
+git clone https://github.com/filecash/lotus_builder && cd lotus_builder && bash build.sh -a
+
+亲爱的Filecash爱好者，Filecash现已开放[Step2水龙头](https://faucet.file.cash)，以下是水龙头使用注意事项：
 1、同IP同一个Git账号请勿频繁授权登录
 2、同Git账号8小时内只能申领一次
 3、t3xxxx...xx 地址永久只能申领一次
