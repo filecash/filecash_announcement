@@ -22,11 +22,11 @@
 git clone https://github.com/filecash/lotus_builder && cd lotus_builder && bash build.sh -a
 
 亲爱的Filecash爱好者，Filecash现已开放[Step2水龙头](https://faucet.file.cash)，以下是水龙头使用注意事项：
-1、同IP同一个Git账号请勿频繁授权登录
-2、同Git账号8小时内只能申领一次
-3、t3xxxx...xx 地址永久只能申领一次
-4、t3xxxx...xx 地址有交易后会生成 t0xxxx 地址
-5、t3xxxx...xx + t0xxxx 地址一起填写可以继续领取水龙头
+- 1.同IP同一个Git账号请勿频繁授权登录
+- 2.同Git账号8小时内只能申领一次
+- 3.t3xxxx...xx 地址永久只能申领一次
+- 4.t3xxxx...xx 地址有交易后会生成 t0xxxx 地址
+- 5.t3xxxx...xx + t0xxxx 地址一起填写可以继续领取水龙头
 
 水龙头：https://faucet.file.cash/
 
