@@ -28,7 +28,7 @@ git clone https://github.com/filecash/lotus_builder && cd lotus_builder && bash 
 - 4.t3xxxx...xx 地址有交易后会生成 t0xxxx 地址
 - 5.t3xxxx...xx + t0xxxx 地址一起填写可以继续领取水龙头
 
-水龙头：https://faucet.file.cash/
+水龙头：https://faucet.file.cash
 
 
 #### 10月15日发布的[第六个版本](https://github.com/filecash/lotus/releases/tag/filecash-v0.7.0) ，做了如下改进：
@@ -105,6 +105,25 @@ nohup env FIL_PROOFS_USE_GPU_COLUMN_BUILDER=1 FIL_PROOFS_USE_GPU_TREE_BUILDER=1 
 
 The FileCash community was formally established on September 18th, 2020, and opened the Github code base on September 19th, 2020. In the initial stage, only some part of the source code will be available during the test stage. The entire source code is planned to be unveiled after mainnet’s launch.
 
+#### [The seventh version](https://github.com/filecash/lotus/releases/tag/filecash-v0.7.0-S2) - Launch of free-of-pledge network Step2 was released on 29th October with improvements as belows.
+- Economic model adjusted;
+- Some bugs fixed;
+- Please do NOT delete data from the step1 network;
+- Please ensure to store the data and private key from the step1 network, as there will be asymmetric mapping at the main-net launch;
+- Please send the mining address from the step1 along with a screenshot of the `lotus-miner info` command interface to the Foundation Email:filecash@file.cash ; Such materials will be taken as references for the asymmetric mapping.
+
+Compilation method:
+git clone https://github.com/filecash/lotus_builder && cd lotus_builder && bash build.sh -a
+
+Dear Filecash community, [the Step2 faucet](https://faucet.file.cash) is now available and below is the must-knows:
+1. Please do not authorize and login with the same Git account from one IP address frequently.
+2. One Git account can only claim once within 8 hours.
+3. t3xxxx...xx address can claim once only.
+4. A t0xxxx address will be generated after a t3xxxx...xx address makes a transaction.
+5. Filling in the t3xxxx...xx + t0xxxx address together enables you to claim the faucet.
+
+The Step2 faucet: https://faucet.file.cash
+
 #### [The sixth version](https://github.com/filecash/lotus/releases/tag/filecash-v0.7.0) released on October 15 ,The following improvements have been made:
 - Packaging size changed to 4G. 
 - SDR layer at PC1 stage changed to 8. 
@@ -113,7 +132,7 @@ The FileCash community was formally established on September 18th, 2020, and ope
 - Economic model adjusted. 
 - All source codes open to public. 
 
-#### [The fourth version](https://github.com/filecash/lotus/releases/tag/filescash-incentive-testnet-v0.7.0-beta1) released on September 28 ,The following improvements have been made:
+#### [The fifth version](https://github.com/filecash/lotus/releases/tag/filescash-incentive-testnet-v0.7.0-beta1) released on September 28 ,The following improvements have been made:
 - Open filecash incentive testnet.
 
 #### [The fourth version](https://github.com/filecash/lotus/releases/tag/filescash-testnet-v0.7.0-beta2-sha512) released on September 28 ,The following improvements have been made:
