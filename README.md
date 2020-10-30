@@ -18,8 +18,8 @@
 - 请将免抵押网络Step1的挖矿地址和`lotus-miner info`命令界面截图发送至基金会邮箱filecash@file.cash作为非对称映射的部分参考。
 欢迎各位参与者在社区中积极反馈，参与Filecash生态的建设。
 
-编译方法：
-git clone https://github.com/filecash/lotus_builder && cd lotus_builder && bash build.sh -a
+一键编译：
+https://github.com/filecash/lotus_builder
 
 亲爱的Filecash爱好者，Filecash现已开放[Step2水龙头](https://faucet.file.cash)，以下是水龙头使用注意事项：
 - 1.同IP同一个Git账号请勿频繁授权登录
@@ -112,8 +112,8 @@ The FileCash community was formally established on September 18th, 2020, and ope
 - Please ensure to store the data and private key from the step1 network, as there will be asymmetric mapping at the main-net launch;
 - Please send the mining address from the step1 along with a screenshot of the `lotus-miner info` command interface to the Foundation Email:filecash@file.cash ; Such materials will be taken as references for the asymmetric mapping.
 
-Compilation method:
-git clone https://github.com/filecash/lotus_builder && cd lotus_builder && bash build.sh -a
+One-click compilation:
+https://github.com/filecash/lotus_builder
 
 Dear Filecash community, [the Step2 faucet](https://faucet.file.cash) is now available and below is the must-knows:
 1. Please do not authorize and login with the same Git account from one IP address frequently.
