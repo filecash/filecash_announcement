@@ -112,7 +112,14 @@ nohup env FIL_PROOFS_USE_GPU_COLUMN_BUILDER=1 FIL_PROOFS_USE_GPU_TREE_BUILDER=1 
 
 The FileCash community was formally established on September 18th, 2020, and opened the Github code base on September 19th, 2020. In the initial stage, only some part of the source code will be available during the test stage. The entire source code is planned to be unveiled after mainnet’s launch.
 
-#### [The seventh version](https://github.com/filecash/lotus/releases/tag/filecash-v0.7.0-S2) - Launch of free-of-pledge network Step2 was released on 29th October with improvements as belows.
+#### [The eighth version](https://github.com/filecash/lotus/releases/tag/filecash-v0.7.0-S2-fix) released on 14th Nov - Free-of-pledge network setp2 is ongoing with improvements made as below.
+- This version requires mandatory upgrade;
+- Pledge fee adjusted. Step2 is projected to adjust the pledge value to around 1FIC at the block height of 49270(estimated to be 12:00 15th Nov Beijing time);
+- Information on-chain process adjusted;
+- Bug fixed;
+- Please continue to increase your mining power and do NOT delete any data from Step2 network.
+
+#### [The seventh version](https://github.com/filecash/lotus/releases/tag/filecash-v0.7.0-S2)released on October 29  - Launch of free-of-pledge network Step2 was released on 29th October with improvements as belows.
 - Economic model adjusted;
 - Some bugs fixed;
 - Please do NOT delete data from the step1 network;
