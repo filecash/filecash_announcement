@@ -10,6 +10,12 @@
 
 很高兴Filecash社区在9月18日正式成立，将于9月19日晚些时候开放Github代码库，前期出于保护项目的考虑，测试阶段只会开放部分源代码，在主网上线前开源全部代码。
 
+#### 11月16日 Step2结束公告-免抵押网络Step2即将结束，做了如下改进：
+ - Step2已经在高度51910(北京时间 11月16日10:00)完成全网账户余额重置(rebalance)。
+ - 所有参与矿工共享247123FIC奖励，奖励将在mixpay发放，请矿工们留意细则。
+ - 所有在48910高度,免抵押网络Step2有扇区记录的矿工，会得到100FIC奖励，奖励直接发放到矿工账户
+ - 请继续保持算力增长，不要删除Step2网络数据。
+
 #### 11月14日发布的[第八个版本](https://github.com/filecash/lotus/releases/tag/filecash-v0.7.0-S2-fix)-免抵押网络Step2还在继续，做了如下改进：
 - 此版本为强制更新版本
 - 调整抵押费用，Step2会在高度49270(北京时间 11月15日12:00)更改预抵押值，降低到1FIC左右。
@@ -111,6 +117,13 @@ nohup env FIL_PROOFS_USE_GPU_COLUMN_BUILDER=1 FIL_PROOFS_USE_GPU_TREE_BUILDER=1 
 - Telegram: https://t.me/FilecashGlobal
 
 The FileCash community was formally established on September 18th, 2020, and opened the Github code base on September 19th, 2020. In the initial stage, only some part of the source code will be available during the test stage. The entire source code is planned to be unveiled after mainnet’s launch.
+
+#### Announcement on Step2 conclusion 16th Nov
+Free-of-pledge network setp2 has concluded and improvement has been made as below.
+- Step2 has reset the balance of all accounts(account re-balance) at the block height of 51910(estimated to be 10:00 16th Nov Beijing time);
+- A total amount of 247,123FIC has been mined as participation reward during the past period. Please be kindly noticed that such reward will be distributed to your account on MixPay;
+- All miners who had sector record at the 48910th block will receive 100FIC as reward. Such reward will be distributed to your miner account directly;
+- Please continue to increase your mining power and do NOT delete any data from Step2 network.
 
 #### [The eighth version](https://github.com/filecash/lotus/releases/tag/filecash-v0.7.0-S2-fix) released on 14th Nov - Free-of-pledge network setp2 is ongoing with improvements made as below.
 - This version requires mandatory upgrade;
