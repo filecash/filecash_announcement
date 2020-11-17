@@ -10,6 +10,19 @@
 
 很高兴Filecash社区在9月18日正式成立，将于9月19日晚些时候开放Github代码库，前期出于保护项目的考虑，测试阶段只会开放部分源代码，在主网上线前开源全部代码。
 
+#### 11月18日发布的[第九个版本](https://github.com/filecash/lotus/releases/tag/filecash-v0.7.0-S2-fix2)-免抵押网络Step2结束，主网即将开启，做了如下改进：
+ - 此版本为强制更新版本
+ - Filecash网络将在高度72070(北京时间 11月23日10:00)调整基础费率，增强随机数安全性
+ - 修复rpc获取StateReplay接口
+ - 修复最大任务数限制
+ - 请继续保持算力增长，不要删除Step2网络数据。
+ - 主网即将上线，版本更新频繁，如果发现有分叉的情况请做如下操作：
+    1.备份私钥: lotus wallet export t3xxxxxxxx > t3xxxxxxxx.key
+    2.关闭所有lotus程序
+    3.重命名lotus目录: mv ~/.lotus  ~/.lotus-bak
+    4.下载镜像文件: wget https://snapshot.file.cash/fic-snapshot-20201117.car (fic-snapshot-2020xxxx.car 每天凌晨2点更新当天镜像文件)
+    5.导入镜像文件: lotus daemon --import-snapshot fic-snapshot-20201117.car
+
 #### 11月16日 Step2结束公告-免抵押网络Step2即将结束，做了如下改进：
  - Step2已经在高度51910(北京时间 11月16日10:00)完成全网账户余额重置(rebalance)。
  - 所有参与矿工共享247123FIC奖励，奖励将在mixpay发放，请矿工们留意细则。
@@ -117,6 +130,19 @@ nohup env FIL_PROOFS_USE_GPU_COLUMN_BUILDER=1 FIL_PROOFS_USE_GPU_TREE_BUILDER=1 
 - Telegram: https://t.me/FilecashGlobal
 
 The FileCash community was formally established on September 18th, 2020, and opened the Github code base on September 19th, 2020. In the initial stage, only some part of the source code will be available during the test stage. The entire source code is planned to be unveiled after mainnet’s launch.
+
+#### [The ninth version](https://github.com/filecash/lotus/releases/tag/filecash-v0.7.0-S2-fix2) released on 18th November - Launch of main net and conclusion of free-of-pledge Step2 network (https://github.com/filecash/lotus/releases/tag/filecash-v0.7.0-S2-fix2)
+- This version requires mandatory upgrade;
+- Filecash network will adjust its fee rate for enhancement of random number security at the block height of 72070(estimated to be at around 10:00 23rd November Beijing time);
+- Fix the rpc API to get StateReplay;
+- Fix limit of max task number;
+- Please continue to increase your mining power and do NOT delete any data from Step2 network;
+- There are multiple upgrades before the launch of main net. Please stick to instructions as below if there is fork of data:
+    1. Back-up private key: lotus wallet export t3xxxxxxxx > t3xxxxxxxx.key
+    2. Close all lotus programme
+    3. Rename lotus catalogue: mv ~/.lotus  ~/.lotus-bak
+    4. Download the mirror file at: wget https://snapshot.file.cash/fic-snapshot-20201117.car (The mirror file will upgrade at 2:00am Beijing time on a daily basis, fic-snapshot-2020xxxx.car)
+    5. Import mirror file: lotus daemon --import-snapshot fic-snapshot-20201117.car
 
 #### Announcement on Step2 conclusion 16th Nov
 Free-of-pledge network setp2 has concluded and improvement has been made as below.
