@@ -17,11 +17,13 @@
  - 修复最大任务数限制
  - 请继续保持算力增长，不要删除Step2网络数据。
  - 主网即将上线，版本更新频繁，如果发现有分叉的情况请做如下操作：
- -   1.备份私钥: lotus wallet export t3xxxxxxxx > t3xxxxxxxx.key
- -   2.关闭所有lotus程序
- -   3.重命名lotus目录: mv ~/.lotus  ~/.lotus-bak
- -   4.下载镜像文件: wget https://snapshot.file.cash/fic-snapshot-20201117.car (fic-snapshot-2020xxxx.car 每天凌晨2点更新当天镜像文件)
- -   5.导入镜像文件: env LOTUS_SKIP_GENESIS_CHECK=_yes_ lotus daemon --import-snapshot fic-snapshot-20201117.car
+```
+    1.备份私钥: lotus wallet export t3xxxxxxxx > t3xxxxxxxx.key
+    2.关闭所有lotus程序
+    3.重命名lotus目录: mv ~/.lotus  ~/.lotus-bak
+    4.下载镜像文件: wget https://snapshot.file.cash/fic-snapshot-20201117.car (fic-snapshot-2020xxxx.car 每天凌晨2点更新当天镜像文件)
+    5.导入镜像文件: env LOTUS_SKIP_GENESIS_CHECK=_yes_ lotus daemon --import-snapshot fic-snapshot-20201117.car
+```
 
 #### 11月16日 Step2结束公告-免抵押网络Step2即将结束，做了如下改进：
  - Step2已经在高度51910(北京时间 11月16日10:00)完成全网账户余额重置(rebalance)。
@@ -138,11 +140,13 @@ The FileCash community was formally established on September 18th, 2020, and ope
 - Fix limit of max task number;
 - Please continue to increase your mining power and do NOT delete any data from Step2 network;
 - There are multiple upgrades before the launch of main net. Please stick to instructions as below if there is fork of data:
--    1. Back-up private key: lotus wallet export t3xxxxxxxx > t3xxxxxxxx.key
--    2. Close all lotus programme
--    3. Rename lotus catalogue: mv ~/.lotus  ~/.lotus-bak
--    4. Download the mirror file at: wget https://snapshot.file.cash/fic-snapshot-20201117.car (The mirror file will upgrade at 2:00am Beijing time on a daily basis, fic-snapshot-2020xxxx.car)
--    5. Import mirror file: env LOTUS_SKIP_GENESIS_CHECK=_yes_ lotus daemon --import-snapshot fic-snapshot-20201117.car
+```
+    1. Back-up private key: lotus wallet export t3xxxxxxxx > t3xxxxxxxx.key
+    2. Close all lotus programme
+    3. Rename lotus catalogue: mv ~/.lotus  ~/.lotus-bak
+    4. Download the mirror file at: wget https://snapshot.file.cash/fic-snapshot-20201117.car (The mirror file will upgrade at 2:00am Beijing time on a daily basis, fic-snapshot-2020xxxx.car)
+    5. Import mirror file: env LOTUS_SKIP_GENESIS_CHECK=_yes_ lotus daemon --import-snapshot fic-snapshot-20201117.car
+```
 
 #### Announcement on Step2 conclusion 16th Nov
 Free-of-pledge network setp2 has concluded and improvement has been made as below.
