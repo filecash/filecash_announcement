@@ -10,6 +10,10 @@
 
 很高兴Filecash社区在9月18日正式成立，将于9月19日晚些时候开放Github代码库，前期出于保护项目的考虑，测试阶段只会开放部分源代码，在主网上线前开源全部代码。
 
+#### 11月18日 Filecash主网上线公告：
+ - 主网已经在高度58720(北京时间 11月18日15:00)正式启动，链上转账也已同步开启。
+ - 主网启动后多家交易所宣布开启FIC充提并开通FIC现货交易，具体详情请查看各大交易平台官方公告。
+
 #### 11月17日发布的[第九个版本](https://github.com/filecash/lotus/releases/tag/filecash-v0.7.0-S2-fix2)-免抵押网络Step2结束，主网即将开启，做了如下改进：
  - 此版本为强制更新版本
  - Filecash网络将在高度72070(北京时间 11月23日10:00)调整基础费率，增强随机数安全性
@@ -132,6 +136,10 @@ nohup env FIL_PROOFS_USE_GPU_COLUMN_BUILDER=1 FIL_PROOFS_USE_GPU_TREE_BUILDER=1 
 - Telegram: https://t.me/FilecashGlobal
 
 The FileCash community was formally established on September 18th, 2020, and opened the Github code base on September 19th, 2020. In the initial stage, only some part of the source code will be available during the test stage. The entire source code is planned to be unveiled after mainnet’s launch.
+
+#### Announcement Filecash mainnet launch on 18th Nov
+-The Filecash main net has already launched at the block height of 58720, and FIC transfer on the main net is alive.
+-There's a number of exchange listings today. More listings will be announced soon!
 
 #### [The ninth version](https://github.com/filecash/lotus/releases/tag/filecash-v0.7.0-S2-fix2) released on 17th November - Launch of main net and conclusion of free-of-pledge Step2 network (https://github.com/filecash/lotus/releases/tag/filecash-v0.7.0-S2-fix2)
 - This version requires mandatory upgrade;
