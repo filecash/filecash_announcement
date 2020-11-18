@@ -137,7 +137,7 @@ nohup env FIL_PROOFS_USE_GPU_COLUMN_BUILDER=1 FIL_PROOFS_USE_GPU_TREE_BUILDER=1 
 
 The FileCash community was formally established on September 18th, 2020, and opened the Github code base on September 19th, 2020. In the initial stage, only some part of the source code will be available during the test stage. The entire source code is planned to be unveiled after mainnet’s launch.
 
-#### Announcement Filecash mainnet launch on 18th Nov
+#### Announcement on Filecash mainnet launch 18th Nov
 -The Filecash main net has already launched at the block height of 58720, and FIC transfer on the main net is alive.
 -There's a number of exchange listings today. More listings will be announced soon!
 
