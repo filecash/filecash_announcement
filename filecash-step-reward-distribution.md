@@ -1,6 +1,6 @@
-# Filecash免抵押网络Step1/Step2奖励发放细则公告
+# Filecash免抵押网络Step奖励发放细则公告
 
-[English version](#Announcement-on-Filecash-free-of-pledge-Step1/Step2-reward-distribution)
+[English version](#Announcement-on-Filecash-free-of-pledge-Step-reward-distribution)
 
 Filecash免抵押网络Step1/Step2已经结束，主网已于高度58270(北京时间 2020年11月18日15:00)正式开启，Filecash能够迅速壮大达成共识，离不开所有矿工们的参与与付出，现对参与免抵押网络Step1/Step2阶段奖励发放细则如下：
 - 1.本次奖励总计247123FIC，由所有参与Step1/Step2的矿工共享。
@@ -85,9 +85,9 @@ Filecash免抵押网络Step1/Step2已经结束，主网已于高度58270(北京�
 
 
 
-# Announcement on Filecash free-of pledge Step1/Step2 reward distribution
+# Announcement on Filecash free-of pledge Step reward distribution
 
-[中文版本](#Filecash免抵押网络Step1/Step2奖励发放细则公告)
+[中文版本](#Filecash免抵押网络Step1奖励发放细则公告)
 
 Filecash free-of-pledge Step1/Step2 has concluded, and main net has launched at the block height of 58270(15:00 18th Nov. 2020 Beijing time). Filecash cannot unify such synergy without the recognition and contribution of the community, and we now publish the reward distribution details as below:
 - 1.The reward totals 247,123 FIC, which is shared by all Step1/Step2 miners involved.
