@@ -1,9 +1,9 @@
 # Filecash免抵押网络Step1/Step2奖励发放细则公告
-
+[English version](#Announcement on Filecash free-of pledge Step1/Step2 reward distribution)
 Filecash免抵押网络Step1/Step2已经结束，主网已于高度58270(北京时间 2020年11月18日15:00)正式开启，Filecash能够迅速壮大达成共识，离不开所有矿工们的参与与付出，现对参与免抵押网络Step1/Step2阶段奖励发放细则如下：
 - 1.本次奖励总计247123FIC，由所有参与Step1/Step2的矿工共享。
 - 2.矿工奖励计算公式：总奖励247123FIC \* { (矿工Step1算力\*5 + 矿工Step2算力) / (Step1全网总算力\*5 + Step2全网总算力) } = 矿工应得奖励 
-- 3.矿工奖励发放规则：采用多签方式发放奖励，奖励180天线性释放。
+- 3.矿工奖励发放规则：采用多签方式发放奖励，奖励于高度77830(北京时间 2020年11月25日10:00)开始180天线性释放。
 - 4.矿工奖励领取方式：由矿工对应Owner钱包地址授权领取。（备份好Owner钱包私钥，不要丢失）
 ```
     # 检查多签钱包状态    由基金会发起创建<矿工奖励多签地址>
@@ -84,10 +84,13 @@ Filecash免抵押网络Step1/Step2已经结束，主网已于高度58270(北京�
 
 
 # Announcement on Filecash free-of pledge Step1/Step2 reward distribution
+
+[中文版本](#Filecash免抵押网络Step1/Step2奖励发放细则公告)
+
 Filecash free-of-pledge Step1/Step2 has concluded, and main net has launched at the block height of 58270(15:00 18th Nov. 2020 Beijing time). Filecash cannot unify such synergy without the recognition and contribution of the community, and we now publish the reward distribution details as below:
 - 1.The reward totals 247,123 FIC, which is shared by all Step1/Step2 miners involved.
 - 2.Reward formula: Total reward of 247123FIC * { (Step1 mining power \* 5 + Step1mining power) / (Step1 whole network mining power \* 5 + Step2 whole network mining power) } = Reward for a miner
-- 3.Rules: use multiple signature for reward distribution; last for 180 days linearly.
+- 3.Rules: use multiple signature for reward distribution; reward at the height of 77830 (10:00 on November 25, 2020 Beijing time), the 180-day antenna release.
 - 4.How to claim reward: Claim with the Owner wallet address of miner’s for authentication and claim(back-up Owner wallet private key and ensure it is well saved)
 ```
     # Check the multiple signature status   Initiated by the Foundation<Miner reward multiple signature address>
@@ -164,5 +167,4 @@ Filecash free-of-pledge Step1/Step2 has concluded, and main net has launched at 
 | [t01598](t3xbibubwiibrzs2ono3vywbukdozu7ov4lfhyhm7lkmf26tee4ri4ix5ecxhvzdtamikl2ynmvaraak6bstnq) | 72 GiB / 52.5 TiB | 0.1339% | 303.98 FIC |
 | [t01610](t3xajpt2ugojvuolfzccqzopp7cfmll462freh3xzzanbpdu255stcvv47t4zs3zygjstsc5emerexcp6vx64a) | 4 GiB / 52.5 TiB | 0.0074% | 16.80 FIC |
 | [t01620](t3tfjoadsault72g756535gxmx6cng5e2ie4i22tx3e4crc34nr2gcuw4sn7raujs45njs2wl3argbchu4akwa) | 16 GiB / 52.5 TiB | 0.0297% | 67.43 FIC |
-
 
