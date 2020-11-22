@@ -18,7 +18,7 @@ Filecash免抵押网络Step1/Step2已经结束，主网已于高度58270(北京�
 <font color='red'> **Step1/Step2奖励分配** </font>
 | 阶段 | 实际算力 | 奖励算力| 奖励算力占比 | 奖励金额 |
 | :----: | :----: | :----: | :----: | :----: |
-| Step1 / 952GiB | 4.64TiB(4760GiB) | 8.1340% | 20101 FIC |
+| Step1 | 952GiB | 4.64TiB(4760GiB) | 8.1340% | 20101 FIC |
 | Step2 | 52.5TiB | 52.5TiB(53760GiB) | 91.8660% | 227022 FIC |
 
 <font color='red'> **Step1奖励名单.xls** </font>
@@ -103,8 +103,8 @@ Filecash free-of-pledge Step1/Step2 has concluded, and main net has launched at 
 <font color='red'> **Step1/Step2 Reward Pool** </font>
 | stage | mining power | reward mining power| Ratio of reward mining power | FIC reward amount |
 | :----: | :----: | :----: | :----: | :----: |
-| Step1 | 688GiB | 3.36TiB | 6.0140% | 14862 FIC |
-| Step2 | 52.5TiB | 52.5TiB | 93.9860% | 232261 FIC |
+| Step1 | 952GiB | 4.64TiB(4760GiB) | 8.1340% | 20101 FIC |
+| Step2 | 52.5TiB | 52.5TiB(53760GiB) | 91.8660% | 227022 FIC |
 
 <font color='red'> **List of Step1 reward.xls** </font>
 | Miner | mining power | Ratio of mining power | FIC reward amount |
