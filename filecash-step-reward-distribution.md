@@ -1,5 +1,7 @@
 # Filecash免抵押网络Step1/Step2奖励发放细则公告
-[English version](#Announcement on Filecash free-of pledge Step1/Step2 reward distribution)
+
+[English version](#Announcement-on-Filecash-free-of-pledge-Step1/Step2-reward-distribution)
+
 Filecash免抵押网络Step1/Step2已经结束，主网已于高度58270(北京时间 2020年11月18日15:00)正式开启，Filecash能够迅速壮大达成共识，离不开所有矿工们的参与与付出，现对参与免抵押网络Step1/Step2阶段奖励发放细则如下：
 - 1.本次奖励总计247123FIC，由所有参与Step1/Step2的矿工共享。
 - 2.矿工奖励计算公式：总奖励247123FIC \* { (矿工Step1算力\*5 + 矿工Step2算力) / (Step1全网总算力\*5 + Step2全网总算力) } = 矿工应得奖励 
