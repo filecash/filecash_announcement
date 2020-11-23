@@ -8,7 +8,8 @@ Filecash免抵押网络Step1/Step2已经结束，主网已于高度58270(北京�
 - 3.矿工奖励发放规则：采用多签方式发放奖励，奖励于高度77830(北京时间 2020年11月25日10:00)开始180天线性释放。
 - 4.矿工奖励领取方式：由矿工对应Owner钱包地址授权领取。（备份好Owner钱包私钥，不要丢失）
 ```
-    # 检查多签钱包状态    由基金会发起创建<矿工奖励多签地址>
+    # 由基金会发起创建 <矿工奖励多签地址>
+    # 检查多签钱包状态
     lotus msig inspect <矿工奖励多签地址>
     # 发起多签转账交易
     lotus msig propose --from <矿工Owner钱包地址> <矿工奖励多签地址> <矿工提取地址> <矿工本次提取金额>
@@ -24,8 +25,8 @@ Filecash免抵押网络Step1/Step2已经结束，主网已于高度58270(北京�
 | Step2 | 52.5TiB | 52.5TiB(53760GiB) | 91.8660% | 227022 FIC |
 
 <font color='red'> **Step1奖励名单.xls** </font>
-| 矿工 | 算力 | 算力占比 | 奖励金额 |
-| :----: | :----: | :----: | :----: |
+| 矿工 | 算力 | 算力占比 | 奖励金额 | 多签地址 |
+| :----: | :----: | :----: | :----: | :----: |
 | [t01000](t3sfaxzmnhqim5sdpi4trk2idd7btbbz5s43hrivqh3vemfqg2okmpvksu5e5cfhvlo6n7yaweutuy5d4wmrbq) | 200GiB / 952GiB | 21.0084% | 4222.90 FIC |
 | [t01003](t3sg75u7lyffzj26g7v7ayy7hyd3c6vl3q73wqkupusnedxy5wwjaoviekuykvlbglbypb74bzb2t3fca4ulia) | 156GiB / 952GiB | 16.3866% | 3293.87 FIC |
 | [t01004](t3wspwousyffohqyk37zemlagcuwmnuvxxq7wokanb3g3zrg2x3ikemyiuzrtmivfk2gsd5xgmwd2x3lo2uzua) | 80GiB / 952GiB | 8.4034% | 1689.17 FIC |
@@ -42,8 +43,8 @@ Filecash免抵押网络Step1/Step2已经结束，主网已于高度58270(北京�
 
 
 <font color='red'> **Step2奖励名单.xls** </font>
-| 矿工 | 算力 | 算力占比 | 奖励金额 |
-| :----: | :----: | :----: | :----: |
+| 矿工 | 算力 | 算力占比 | 奖励金额 | 多签地址 |
+| :----: | :----: | :----: | :----: | :----: |
 | [t01000](t3sfaxzmnhqim5sdpi4trk2idd7btbbz5s43hrivqh3vemfqg2okmpvksu5e5cfhvlo6n7yaweutuy5d4wmrbq) | 2.344 TiB / 52.5 TiB | 4.4642% | 10134.72 FIC |
 | [t01001](t3wltd7baxkdapvgiwanekul2sobtfzdc36vrecm2it3ebfwxt2eathk6ecigumv76pu767xkky4qg5xurmlnq) | 2.344 TiB / 52.5 TiB | 4.4642% | 10134.72 FIC |
 | [t01002](t3szmtx2vplkdlm6rmvhksxxub3i76d3uoy3pjxypmx4apxrw456agm53ortsid527k7jqtvugo6zd6mc3khja) | 2.344 TiB / 52.5 TiB | 4.4642% | 10134.72 FIC |
@@ -95,7 +96,8 @@ Filecash free-of-pledge Step1/Step2 has concluded, and main net has launched at 
 - 3.Rules: use multiple signature for reward distribution; reward at the height of 77830 (10:00 on November 25, 2020 Beijing time), the 180-day antenna release.
 - 4.How to claim reward: Claim with the Owner wallet address of miner’s for authentication and claim(back-up Owner wallet private key and ensure it is well saved)
 ```
-    # Check the multiple signature status   Initiated by the Foundation<Miner reward multiple signature address>
+    # Initiated by the Foundation <Miner reward multiple signature address>
+    # Check the multiple signature status
     lotus msig inspect <Miner reward multiple signature address>
     # Initiate multiple signature transaction
     lotus msig propose --from <miner Owner wallet address> <miner reward multiple signature address> <Miner withdraw address> <FIC withdraw amount>
@@ -112,8 +114,8 @@ Filecash free-of-pledge Step1/Step2 has concluded, and main net has launched at 
 | Step2 | 52.5TiB | 52.5TiB(53760GiB) | 91.8660% | 227022 FIC |
 
 <font color='red'> **List of Step1 reward.xls** </font>
-| Miner | mining power | Ratio of mining power | FIC reward amount |
-| :----: | :----: | :----: | :----: |
+| Miner | mining power | Ratio of mining power | FIC reward amount | multiple signature address |
+| :----: | :----: | :----: | :----: | :----: |
 | [t01000](t3sfaxzmnhqim5sdpi4trk2idd7btbbz5s43hrivqh3vemfqg2okmpvksu5e5cfhvlo6n7yaweutuy5d4wmrbq) | 200GiB / 952GiB | 21.0084% | 4222.90 FIC |
 | [t01003](t3sg75u7lyffzj26g7v7ayy7hyd3c6vl3q73wqkupusnedxy5wwjaoviekuykvlbglbypb74bzb2t3fca4ulia) | 156GiB / 952GiB | 16.3866% | 3293.87 FIC |
 | [t01004](t3wspwousyffohqyk37zemlagcuwmnuvxxq7wokanb3g3zrg2x3ikemyiuzrtmivfk2gsd5xgmwd2x3lo2uzua) | 80GiB / 952GiB | 8.4034% | 1689.17 FIC |
@@ -129,8 +131,8 @@ Filecash free-of-pledge Step1/Step2 has concluded, and main net has launched at 
 
 
 <font color='red'> **List of Step2 reward.xls** </font>
-| Miner | mining power | Ratio of mining power | FIC reward amount |
-| :----: | :----: | :----: | :----: |
+| Miner | mining power | Ratio of mining power | FIC reward amount | multiple signature address |
+| :----: | :----: | :----: | :----: | :----: |
 | [t01000](t3sfaxzmnhqim5sdpi4trk2idd7btbbz5s43hrivqh3vemfqg2okmpvksu5e5cfhvlo6n7yaweutuy5d4wmrbq) | 2.344 TiB / 52.5 TiB | 4.4642% | 10134.72 FIC |
 | [t01001](t3wltd7baxkdapvgiwanekul2sobtfzdc36vrecm2it3ebfwxt2eathk6ecigumv76pu767xkky4qg5xurmlnq) | 2.344 TiB / 52.5 TiB | 4.4642% | 10134.72 FIC |
 | [t01002](t3szmtx2vplkdlm6rmvhksxxub3i76d3uoy3pjxypmx4apxrw456agm53ortsid527k7jqtvugo6zd6mc3khja) | 2.344 TiB / 52.5 TiB | 4.4642% | 10134.72 FIC |
