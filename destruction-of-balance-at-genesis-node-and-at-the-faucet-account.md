@@ -27,7 +27,7 @@
 
 *备注 (3) : 247,668.73‬ FIC (高度51910-72070之间共计发放 550 FIC + 免抵押网络奖励支出 247,118.73 FIC)*
 
-destruction at the height of 80710 (10:00 on November 26, 2020 Beijing time), the 180-day antenna release.
+
 
 
 # Announcement on destruction of balance at genesis node and at the faucet account
