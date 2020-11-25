@@ -10,6 +10,20 @@
 
 很高兴Filecash社区在9月18日正式成立，将于9月19日晚些时候开放Github代码库，前期出于保护项目的考虑，测试阶段只会开放部分源代码，在主网上线前开源全部代码。
 
+#### 11月25日 Filecash免抵押网络Step奖励发放完毕公告:
+Filecash免抵押网络Step奖励已于高度77830(北京时间 2020年11月25日10:00)开始发放，高度78190(北京时间 2020年11月25日13:00)结束。
+- 发放经历时间3小时，矿工可通过[Step奖励公告查看多签地址](https://github.com/filecash/filecash_announcement/blob/master/filecash-step-reward-distribution.md)。
+- 采用多签方式发放奖励，共计发放奖励 247118.73 FIC。
+- 如何使用多签领取奖励
+``` 
+    # 检查多签钱包状态    Balance(奖励总额)    Spendable(可提取的额度)
+    lotus msig inspect <多签地址>
+    # 发起多签转账交易，向 <矿工提取地址> 转帐 <矿工本次提取金额> FIC
+    lotus msig propose --from <矿工Owner地址> <多签地址> <矿工提取地址> <矿工本次提取金额>
+    # 验证交易是否成功
+    lotus wallet balance <矿工提取地址>
+```
+
 #### 11月18日 Filecash主网上线公告：
  - 主网已经在高度58270(北京时间 11月18日15:00)正式启动，链上转账也已同步开启。
  - 主网启动后多家交易所宣布开启FIC充提并开通FIC现货交易，具体详情请查看各大交易平台官方公告。
@@ -136,6 +150,22 @@ nohup env FIL_PROOFS_USE_GPU_COLUMN_BUILDER=1 FIL_PROOFS_USE_GPU_TREE_BUILDER=1 
 - Telegram: https://t.me/FilecashGlobal
 
 The FileCash community was formally established on September 18th, 2020, and opened the Github code base on September 19th, 2020. In the initial stage, only some part of the source code will be available during the test stage. The entire source code is planned to be unveiled after mainnet’s launch.
+
+
+#### Announcement Filecash free-of-pledge network Step reward distribution conclusion
+Filecash free-of-pledge network Step reward distribution started at the block height of 77830(10:00 25th Nov. 2020 Beijing time) and finished at the block height of 78190(13:00 25th Nov. 2020 Beijing time) 
+- Reward distribution detail is available at:
+https://github.com/filecash/filecash_announcement/blob/master/filecash-step-reward-distribution.md
+- A total amount of 247,118.73 FIC was distributed by means of multiple signature
+- How to claim multiple signature reward:
+```
+    # Check multiple signature wallet status    Balance(Amount of reward)    Spendable(Amount can be withdrawn)
+    lotus msig inspect <Multiple signature address>
+    # Create multiple signature transaction, transfer to <Miner reward receiving address> with <Amount of withdraw> FIC
+    lotus msig propose --from <Miner Owner address> <Multiple signature address> <Miner reward receiving address> <Amount of withdraw>
+    # Check whether transaction is successful
+    lotus wallet balance <Miner reward receiving address>
+```
 
 #### Announcement on Filecash mainnet launch 18th Nov
 - The Filecash main net has already launched at the block height of 58270, and FIC transfer on the main net is alive.
