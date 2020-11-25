@@ -22,7 +22,9 @@
 | t0132 | t1hzrjaxlgrt4muoru3bsvcfjcmo3iuqtnmmwywcy | 1,250,000 FIC | 0 FIC | 1,250,000 FIC |
 
 *备注 (1) : 3,733,031.67 FIC (4,000,000 FIC - 3 \* 6,433.2 FIC - 247,668.73 FIC)*
+
 *备注 (2) : 6,433.2 FIC (初始矿工质押 0.125\*600 + 出块余额返还 10.597\*600 <在高度51910余额重置>)*
+
 *备注 (3) : 247,668.73‬ FIC (高度51910-72070之间共计发放 550 FIC + 免抵押网络奖励支出 247,118.73 FIC)*
 
 destruction at the height of 80710 (10:00 on November 26, 2020 Beijing time), the 180-day antenna release.
@@ -53,6 +55,8 @@ Remaining FIC at genesis miner node and the faucet account will be destroyed a
 | t0132 | t1hzrjaxlgrt4muoru3bsvcfjcmo3iuqtnmmwywcy | 1,250,000 FIC | 0 FIC | 1,250,000 FIC |
 
 *Remarks (1) : 3,733,031.67 FIC (4,000,000 FIC - 3 \* 6,433.2 FIC - 247,668.73 FIC)*
+
 *Remarks (2) : 6,433.2 FIC (Initial pledge 0.125\*600 + block generation return 10.597\*600 <at the block height of 51910 balance reset>)*
+
 *Remarks (3) : 247,668.73 FIC (550FIC were distributed at the block height between 51910-72070 + reward distribution at the free-of-pledge network 247,118.73 FIC)*
 
