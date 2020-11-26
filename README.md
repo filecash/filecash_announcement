@@ -15,15 +15,15 @@
 为了维护链的稳定性以及早期矿工能免抵押参与，创世时为创世节点分配了1,500,000FIC，为水龙头分配了2,500,000FIC，共计4,000,000 FIC，目前Filecash主网已经上线，创世节点和水龙头已经完成他们的历史使命，为了所有Filecash参与者的共同利益，社区一致决定:
 <font color='red'> **将创世节点和水龙头剩余的FIC全部销毁 (共计 3,733,011.67 FIC<sup>(1)</sup> )。** </font>
 
-##### 销毁时间
+- 销毁时间
 已于高度80710(北京时间 2020年11月26日10:00)完成销毁，[3个创世节点和2个水龙头共计销毁 3,733,011.66878‬ FIC](https://github.com/filecash/filecash_announcement/blob/master/destruction-of-balance-at-genesis-node-and-at-the-faucet-account.md)，销毁消息CID如下。
 
-##### 创世节点
+- 创世节点
 t0100 销毁余额 493,566.79963<sup>(2)</sup> FIC  [bafy2bzaceaa6bhwmfdkwwhavckagaris6d6hqbikxt6babsiwhldelekyixuc](https://fic.filscout.io/zh/pc/message/bafy2bzaceaa6bhwmfdkwwhavckagaris6d6hqbikxt6babsiwhldelekyixuc)
 t0101 销毁余额 493,566.79959 FIC  [bafy2bzacebdl7sy43g7qsvxukinush3mrhtjrnc6jbxwult7iahysv7zng636](https://fic.filscout.io/zh/pc/message/bafy2bzacebdl7sy43g7qsvxukinush3mrhtjrnc6jbxwult7iahysv7zng636)
 t0102 销毁余额 493,566.79963 FIC  [bafy2bzacebivq436en3lahbbafq7ymjr7ls47yihhgt52oq27kdqtjig2bmj6](https://fic.filscout.io/zh/pc/message/bafy2bzacebivq436en3lahbbafq7ymjr7ls47yihhgt52oq27kdqtjig2bmj6)
 
-##### 水龙头
+- 水龙头
 t0131 销毁余额 1,002,311.26994<sup>(3)</sup> FIC  [bafy2bzacedkfjz5nadz42prhdbhfn25nwmr2qsrsmczmmk6lld3estimss2pu](https://fic.filscout.io/zh/pc/message/bafy2bzacedkfjz5nadz42prhdbhfn25nwmr2qsrsmczmmk6lld3estimss2pu)
 t0132 销毁余额 1,249,999.99999 FIC  [bafy2bzaceadkraybk4dyeqbxmo2smevw6x3lzhlnql7gsumqwncypuj4sa57o](https://fic.filscout.io/zh/pc/message/bafy2bzaceadkraybk4dyeqbxmo2smevw6x3lzhlnql7gsumqwncypuj4sa57o)
 
