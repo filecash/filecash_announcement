@@ -16,15 +16,21 @@
 <font color='red'> **将创世节点和水龙头剩余的FIC全部销毁 (共计 3,733,011.67 FIC<sup>(1)</sup> )。** </font>
 
 - 销毁时间
+
 已于高度80710(北京时间 2020年11月26日10:00)完成销毁，[3个创世节点和2个水龙头共计销毁 3,733,011.66878‬ FIC](https://github.com/filecash/filecash_announcement/blob/master/destruction-of-balance-at-genesis-node-and-at-the-faucet-account.md)，销毁消息CID如下。
 
 - 创世节点
+
 t0100 销毁余额 493,566.79963<sup>(2)</sup> FIC  [bafy2bzaceaa6bhwmfdkwwhavckagaris6d6hqbikxt6babsiwhldelekyixuc](https://fic.filscout.io/zh/pc/message/bafy2bzaceaa6bhwmfdkwwhavckagaris6d6hqbikxt6babsiwhldelekyixuc)
+
 t0101 销毁余额 493,566.79959 FIC  [bafy2bzacebdl7sy43g7qsvxukinush3mrhtjrnc6jbxwult7iahysv7zng636](https://fic.filscout.io/zh/pc/message/bafy2bzacebdl7sy43g7qsvxukinush3mrhtjrnc6jbxwult7iahysv7zng636)
+
 t0102 销毁余额 493,566.79963 FIC  [bafy2bzacebivq436en3lahbbafq7ymjr7ls47yihhgt52oq27kdqtjig2bmj6](https://fic.filscout.io/zh/pc/message/bafy2bzacebivq436en3lahbbafq7ymjr7ls47yihhgt52oq27kdqtjig2bmj6)
 
 - 水龙头
+
 t0131 销毁余额 1,002,311.26994<sup>(3)</sup> FIC  [bafy2bzacedkfjz5nadz42prhdbhfn25nwmr2qsrsmczmmk6lld3estimss2pu](https://fic.filscout.io/zh/pc/message/bafy2bzacedkfjz5nadz42prhdbhfn25nwmr2qsrsmczmmk6lld3estimss2pu)
+
 t0132 销毁余额 1,249,999.99999 FIC  [bafy2bzaceadkraybk4dyeqbxmo2smevw6x3lzhlnql7gsumqwncypuj4sa57o](https://fic.filscout.io/zh/pc/message/bafy2bzaceadkraybk4dyeqbxmo2smevw6x3lzhlnql7gsumqwncypuj4sa57o)
 
 *备注 (1) : 3,733,011.67 FIC (4,000,000 FIC - 3 \* 6,433.2 FIC - 247,688.73 FIC)*
@@ -180,16 +186,22 @@ The FileCash community was formally established on September 18th, 2020, and ope
 For the stability of the Filecash blockchain and friendly miner participation at the early stage, 1,500,000 FIC were allocated to the genesis node and 2,500,000FIC to the faucet, totaling 4,000,000FIC. Filecash main network is now online, and the genesis nodes and faucets have completed their mission; for the common benefit of all Filecash participants, the community has unanimously hereby determined that::
 <font color='red'> ** all balance at the genesis node and faucet to be destroyed. (totaling 3,733,011.67 FIC<sup>(1)</sup> )。** </font>
  
-##### Destruction time
+- Destruction time
+
 A total amount of [3,733,011.66878‬ FIC](https://github.com/filecash/filecash_announcement/blob/master/destruction-of-balance-at-genesis-node-and-at-the-faucet-account.md at three genesis nodes and two faucets has been destroyed at the block height of 80710(10:00 26th Nov. 2020 Beijing time) and the CID info is as follows:
  
-##### Genesis node
+- Genesis node
+
 t0100 balance destroyed 493566.79963<sup>(2)</sup> FIC [bafy2bzaceaa6bhwmfdkwwhavckagaris6d6hqbikxt6babsiwhldelekyixuc](https://fic.filscout.io/zh/pc/message/bafy2bzaceaa6bhwmfdkwwhavckagaris6d6hqbikxt6babsiwhldelekyixuc)
+
 t0101 balance destroyed 493566.79959 FIC [bafy2bzacebdl7sy43g7qsvxukinush3mrhtjrnc6jbxwult7iahysv7zng636](https://fic.filscout.io/zh/pc/message/bafy2bzacebdl7sy43g7qsvxukinush3mrhtjrnc6jbxwult7iahysv7zng636)
+
 t0102 balance destroyed 493566.79963 FIC [bafy2bzacebivq436en3lahbbafq7ymjr7ls47yihhgt52oq27kdqtjig2bmj6](https://fic.filscout.io/zh/pc/message/bafy2bzacebivq436en3lahbbafq7ymjr7ls47yihhgt52oq27kdqtjig2bmj6)
  
-##### Faucet
+- Faucet
+
 t0131 balance destroyed 1002311.26994<sup>(3)</sup> FIC [bafy2bzacedkfjz5nadz42prhdbhfn25nwmr2qsrsmczmmk6lld3estimss2pu](https://fic.filscout.io/zh/pc/message/bafy2bzacedkfjz5nadz42prhdbhfn25nwmr2qsrsmczmmk6lld3estimss2pu)
+
 t0132 balance destroyed 1249999.99999 FIC [bafy2bzaceadkraybk4dyeqbxmo2smevw6x3lzhlnql7gsumqwncypuj4sa57o](https://fic.filscout.io/zh/pc/message/bafy2bzaceadkraybk4dyeqbxmo2smevw6x3lzhlnql7gsumqwncypuj4sa57o)
 
 *Remarks (1) : 3,733,011.67 FIC (4,000,000 FIC - 3 \* 6,433.2 FIC - 247,688.73 FIC)*
