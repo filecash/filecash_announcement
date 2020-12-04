@@ -10,6 +10,13 @@
 
 很高兴Filecash社区在9月18日正式成立，将于9月19日晚些时候开放Github代码库，前期出于保护项目的考虑，测试阶段只会开放部分源代码，在主网上线前开源全部代码。
 
+#### 12月4日 发布的[第十个版本](https://github.com/filecash/lotus/releases/tag/filecash-v0.9.0-rc1)，做了如下改进：
+- 升级代码到v0.9.0
+- 此为预览版，不强制升级，可与现有0.7共存。
+- 修复一些bug。
+
+【强制升级预告】：下次强制升级会在高度118150(北京时间 12月9日10:00)，请记得提前做好准备。
+
 #### 11月26日 创世节点及水龙头账号余额销毁完成公告
 
 为了维护链的稳定性以及早期矿工能免抵押参与，创世时为创世节点分配了1,500,000FIC，为水龙头分配了2,500,000FIC，共计4,000,000 FIC，目前Filecash主网已经上线，创世节点和水龙头已经完成他们的历史使命，为了所有Filecash参与者的共同利益，社区一致决定:
@@ -179,6 +186,15 @@ nohup env FIL_PROOFS_USE_GPU_COLUMN_BUILDER=1 FIL_PROOFS_USE_GPU_TREE_BUILDER=1 
 - Telegram: https://t.me/FilecashGlobal
 
 The FileCash community was formally established on September 18th, 2020, and opened the Github code base on September 19th, 2020. In the initial stage, only some part of the source code will be available during the test stage. The entire source code is planned to be unveiled after mainnet’s launch.
+
+#### [The 10th version](https://github.com/filecash/lotus/releases/tag/filecash-v0.9.0-rc1) released on 4th December 
+
+Improvements have been made as below:
+- Code upgraded to v0.9.0;
+- This is a preview version which does not require mandatory upgrade and co-exists with the 0.7 version;
+- Some bug fixed.
+ 
+* Preview on mandatory upgrade: Please be fully prepared for the next mandatory at the block height of 118150(10:00 9th December Beijing time)
 
 
 ####  Announcement on destruction completion of FIC balance at the genesis node and faucet 26th Nov
