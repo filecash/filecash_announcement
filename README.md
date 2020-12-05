@@ -27,24 +27,6 @@ make lotus-checker
 ./lotus-checker checking --miner-id=t01000 --sector-size=4GiB --sector-id-fliter=0,1,2 --storage-dir=/hdd/miner_store
 ```
 
-#### 12月5日 集成filecash社区开发的sector-checker工具[lotus-checker](https://github.com/filecash/lotus/tree/filecash/v0.9.0/cmd/sector-checker)：
-- 对sectoer进行windowPost校验
-- 特别感谢[irocn](https://github.com/irocn/sector-checker)开放sector-checker源码。
-- 特别感谢rectinajh和hooops，把sector-checker移植到filecash，并做了优化特别好用，感谢你们的贡献。
-```
-# env
-git clone https://github.com/filecash/lotus_builder
-bash build.sh -a
-# build checker
-make lotus-checker
-
-# Scan all sectors
-./lotus-checker checking --miner-id=t01000 --sector-size=4GiB --storage-dir=/hdd/miner_store
-# Scan 0,1,2 sector
-./lotus-checker checking --miner-id=t01000 --sector-size=4GiB --sector-id-fliter=0,1,2 --storage-dir=/hdd/miner_store
-```
-
-
 #### 12月4日 发布的[第十个版本](https://github.com/filecash/lotus/releases/tag/filecash-v0.9.0-rc1)，做了如下改进：
 - 升级代码到v0.9.0
 - 此为预览版，不强制升级，可与现有0.7共存。
