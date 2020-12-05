@@ -222,6 +222,24 @@ nohup env FIL_PROOFS_USE_GPU_COLUMN_BUILDER=1 FIL_PROOFS_USE_GPU_TREE_BUILDER=1 
 
 The FileCash community was formally established on September 18th, 2020, and opened the Github code base on September 19th, 2020. In the initial stage, only some part of the source code will be available during the test stage. The entire source code is planned to be unveiled after mainnet’s launch.
 
+#### Announcement Sector-checker tool kit [lotus-checker](https://github.com/filecash/lotus/tree/filecash/v0.9.0/cmd/sector-checker) developed by Filecash community on 5th December
+- Verify sector windowPost
+- Acknowledgement of [irocn](https://github.com/irocn/sector-checker) for sector-checker source code provision
+- Attribute to rectinajh and hooops's integration of  sector-checker into filecash. 
+We genuinely appreciate such project optimization contributions from the community.
+```
+# env
+git clone https://github.com/filecash/lotus_builder
+bash build.sh -a
+# build checker
+make lotus-checker
+
+# Scan all sectors
+./lotus-checker checking --miner-id=t01000 --sector-size=4GiB --storage-dir=/hdd/miner_store
+# Scan 0,1,2 sector
+./lotus-checker checking --miner-id=t01000 --sector-size=4GiB --sector-id-fliter=0,1,2 --storage-dir=/hdd/miner_store
+```
+
 #### [The 10th version](https://github.com/filecash/lotus/releases/tag/filecash-v0.9.0-rc1) released on 4th December 
 
 Improvements have been made as below:
