@@ -217,16 +217,16 @@ nohup env FIL_PROOFS_USE_GPU_COLUMN_BUILDER=1 FIL_PROOFS_USE_GPU_TREE_BUILDER=1 
 The FileCash community was formally established on September 18th, 2020, and opened the Github code base on September 19th, 2020. In the initial stage, only some part of the source code will be available during the test stage. The entire source code is planned to be unveiled after mainnet’s launch.
 
 #### [The 11th version](https://github.com/filecash/lotus/releases/tag/filecash-v0.9.0) released on 7th December - Filecash upgrade to v0.9.0
--Filecash codes upgraded to v0.9.0
--This version requires mandatory upgrade, so please upgrade BEFORE the block height of 118150(estimated to be 10:00 9th December Beijing time). Otherwise, your network will be forked;
--New Filecash network will launch at the the block height of 118150(estimated to be 10:00 9th December Beijing time) with network version changing to 3 and consensus version to 2;
--Token economics adjustment: Mining reward will be released linearly at a daily ratio of 1/180 for 180 days;
--Wallet address upgrade from t1/t2/t3 to f1/f2/f3;
--Worker grouping function is integrated to `lotus-miner sealing workers`;
--Optimized `lotus-miner sectors list` data display;
--Optimized the function of limitation of task amount;
--Improved lotus-bench
--Improved localnet-2k test-net
+- Filecash codes upgraded to v0.9.0
+- This version requires mandatory upgrade, so please upgrade BEFORE the block height of 118150(estimated to be 10:00 9th December Beijing time). Otherwise, your network will be forked;
+- New Filecash network will launch at the the block height of 118150(estimated to be 10:00 9th December Beijing time) with network version changing to 3 and consensus version to 2;
+- Token economics adjustment: Mining reward will be released linearly at a daily ratio of 1/180 for 180 days;
+- Wallet address upgrade from t1/t2/t3 to f1/f2/f3;
+- Worker grouping function is integrated to `lotus-miner sealing workers`;
+- Optimized `lotus-miner sectors list` data display;
+- Optimized the function of limitation of task amount;
+- Improved lotus-bench
+- Improved localnet-2k test-net
 
 #### Announcement Sector-checker tool kit [lotus-checker](https://github.com/filecash/lotus/tree/filecash/v0.9.0/cmd/sector-checker) developed by Filecash community on 5th December
 - Verify sector windowPost
