@@ -10,7 +10,7 @@
 
 很高兴Filecash社区在9月18日正式成立，将于9月19日晚些时候开放Github代码库，前期出于保护项目的考虑，测试阶段只会开放部分源代码，在主网上线前开源全部代码。
 
-#### 12月7日 发布的[第十一个版本](https://github.com/filecash/lotus/releases/tag/filecash-v0.9.0)，Filecash正式升级到v0.9.0，做了如下改进：
+#### 12月7日 发布的[第十一个版本](https://github.com/filecash/lotus/releases/tag/filecash-v0.9.0-fix1)，Filecash正式升级到v0.9.0，做了如下改进：
 - filecash升级代码到v0.9.0
 - 此版本为强制升级版本，务必在高度118150(北京时间 12月9日10:00)前完成升级，否则将分叉。
 - filecash将在高度118150(北京时间 12月9日10:00)点火升级，网络版本升级为3，共识版本升级为2。
@@ -216,7 +216,7 @@ nohup env FIL_PROOFS_USE_GPU_COLUMN_BUILDER=1 FIL_PROOFS_USE_GPU_TREE_BUILDER=1 
 
 The FileCash community was formally established on September 18th, 2020, and opened the Github code base on September 19th, 2020. In the initial stage, only some part of the source code will be available during the test stage. The entire source code is planned to be unveiled after mainnet’s launch.
 
-#### [The 11th version](https://github.com/filecash/lotus/releases/tag/filecash-v0.9.0) released on 7th December - Filecash upgrade to v0.9.0
+#### [The 11th version](https://github.com/filecash/lotus/releases/tag/filecash-v0.9.0-fix1) released on 7th December - Filecash upgrade to v0.9.0
 - Filecash codes upgraded to v0.9.0
 - This version requires mandatory upgrade, so please upgrade BEFORE the block height of 118150(estimated to be 10:00 9th December Beijing time). Otherwise, your network will be forked;
 - New Filecash network will launch at the the block height of 118150(estimated to be 10:00 9th December Beijing time) with network version changing to 3 and consensus version to 2;
