@@ -10,6 +10,9 @@
 
 很高兴Filecash社区在9月18日正式成立，将于9月19日晚些时候开放Github代码库，前期出于保护项目的考虑，测试阶段只会开放部分源代码，在主网上线前开源全部代码。
 
+#### 网络恢复公告
+  filecash在高度124650（北京时间 12月11日16点10分）对网络进行了升级，升级后网络正常，节点正常同步。请没有重启lotus节点和lotus-miner矿工的小伙伴立即重启程序，已经重启的小伙伴不用操作。
+
 #### 12月7日 发布的[第十一个版本](https://github.com/filecash/lotus/releases/tag/filecash-v0.9.0-fix1)，Filecash正式升级到v0.9.0，做了如下改进：
 - filecash升级代码到v0.9.0
 - 此版本为强制升级版本，务必在高度118150(北京时间 12月9日10:00)前完成升级，否则将分叉。
@@ -215,6 +218,9 @@ nohup env FIL_PROOFS_USE_GPU_COLUMN_BUILDER=1 FIL_PROOFS_USE_GPU_TREE_BUILDER=1 
 - Telegram: https://t.me/FilecashGlobal
 
 The FileCash community was formally established on September 18th, 2020, and opened the Github code base on September 19th, 2020. In the initial stage, only some part of the source code will be available during the test stage. The entire source code is planned to be unveiled after mainnet’s launch.
+
+### The Announcement of Network Recovery 
+This afternoon Filecash upgraded the network at the block height of 124650 (estimated to be 16:10 11th December Beijing time).  After the upgrade, the network runs normally and the nodes are in normal synchronization. Please restart the program immediately if you have not restarted the Lotus node and the Lotus - Miner.
 
 #### [The 11th version](https://github.com/filecash/lotus/releases/tag/filecash-v0.9.0-fix1) released on 7th December - Filecash upgrade to v0.9.0
 - Filecash codes upgraded to v0.9.0
