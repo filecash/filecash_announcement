@@ -12,7 +12,7 @@
 
 #### 12月23日 第十二版本发布预告
 - 12月24日将发布十二版本，此版本为强制升级版本，specs-actors版本升级为2.0
-- 提高挖矿质押，详情参考FICIPs https://github.com/filecash/FICIPs/blob/main/FICIPS/ficip-0003.md
+- 修改挖矿抵押，详情参考FICIPs提案 https://github.com/filecash/FICIPs/blob/main/FICIPS/ficip-0003.md
 
 #### 12月11日 网络恢复公告
   filecash在高度124650（北京时间 12月11日16点10分）对网络进行了升级，升级后网络正常，节点正常同步。请没有重启lotus节点和lotus-miner矿工的小伙伴立即重启程序，已经重启的小伙伴不用操作。
