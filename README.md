@@ -232,7 +232,16 @@ nohup env FIL_PROOFS_USE_GPU_COLUMN_BUILDER=1 FIL_PROOFS_USE_GPU_TREE_BUILDER=1 
 
 The FileCash community was formally established on September 18th, 2020, and opened the Github code base on September 19th, 2020. In the initial stage, only some part of the source code will be available during the test stage. The entire source code is planned to be unveiled after mainnet’s launch.
 
-### The Announcement of Network Recovery on 11th December
+#### [The 12th version](https://github.com/filecash/lotus/releases/tag/filecash-v0.9.0-fix2) has been released on December 24, with the following improvements: 
+- This version is a mandatory upgrade version. The upgrade must be completed before block height 172870 (10:00 on December 28, Beijing time), otherwise it will be forked. 
+- The specs-actors version is upgraded to 2.0, and the mining mortgage is modified. For details, please refer to [the FICIPs proposal](https://github.com/filecash/FICIPs/blob/main/FICIPS/ficip-0003.md)
+- Random number stable nodes will be updated. 
+
+#### Advance Notice of NO.12 Version Release on December 23
+- NO.12 version will be released on December 24, this version is a mandatory upgrade version, and the specs-actors version will be upgraded to 2.0
+- The mining mortgage will be modified, For details, please refer to [the FICIPs proposal](https://github.com/filecash/FICIPs/blob/main/FICIPS/ficip-0003.md)
+
+#### The Announcement of Network Recovery on 11th December
 This afternoon Filecash upgraded the network at the block height of 124650 (estimated to be 16:10 11th December Beijing time).  After the upgrade, the network runs normally and the nodes are in normal synchronization. Please restart the program immediately if you have not restarted the Lotus node and the Lotus - Miner.
 
 #### [The 11th version](https://github.com/filecash/lotus/releases/tag/filecash-v0.9.0-fix1) released on 7th December - Filecash upgrade to v0.9.0
