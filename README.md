@@ -10,6 +10,11 @@
 
 很高兴Filecash社区在9月18日正式成立，将于9月19日晚些时候开放Github代码库，前期出于保护项目的考虑，测试阶段只会开放部分源代码，在主网上线前开源全部代码。
 
+#### 12月24日 发布[第十二个版本](https://github.com/filecash/lotus/releases/tag/filecash-v0.9.0-fix2)，做了如下改进：
+- 此版本为强制升级版本，务必在高度172870‬(北京时间 12月28日10:00)前完成升级，否则将分叉。
+- specs-actors版本升级为2.0，修改挖矿抵押，详情参考FICIPs提案 https://github.com/filecash/FICIPs/blob/main/FICIPS/ficip-0003.md
+- 更新随机数稳定节点
+
 #### 12月23日 第十二版本发布预告
 - 12月24日将发布十二版本，此版本为强制升级版本，specs-actors版本升级为2.0
 - 修改挖矿抵押，详情参考FICIPs提案 https://github.com/filecash/FICIPs/blob/main/FICIPS/ficip-0003.md
