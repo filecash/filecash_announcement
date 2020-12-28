@@ -4,7 +4,7 @@
 
 - Official: https://file.cash
 - Github: https://github.com/filecash
-- Slack: https://join.slack.com/t/filecashworkspace/shared_invite/zt-hiau7fp2-KrPRELL2wapMUFOO5ONGiQ
+- Slack: https://join.slack.com/t/filecashworkspace/shared_invite/zt-kca9ippi-pUniHv0K_zzneG9PxMz2Ow
 - Medium: https://medium.com/@filecash
 - Telegram: https://t.me/FilecashGlobal
 - FICIPs: https://github.com/filecash/FICIPs/
@@ -224,7 +224,7 @@ nohup env FIL_PROOFS_USE_GPU_COLUMN_BUILDER=1 FIL_PROOFS_USE_GPU_TREE_BUILDER=1 
 
 - Official: https://file.cash
 - Github: https://github.com/filecash
-- Slack: https://join.slack.com/t/filecashworkspace/shared_invite/zt-hiau7fp2-KrPRELL2wapMUFOO5ONGiQ
+- Slack: https://join.slack.com/t/filecashworkspace/shared_invite/zt-kca9ippi-pUniHv0K_zzneG9PxMz2Ow
 - Medium: https://medium.com/@filecash
 - Telegram: https://t.me/FilecashGlobal
 - FICIPs: https://github.com/filecash/FICIPs/
