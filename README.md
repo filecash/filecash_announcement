@@ -12,6 +12,20 @@
 
 很高兴Filecash社区在9月18日正式成立，将于9月19日晚些时候开放Github代码库，前期出于保护项目的考虑，测试阶段只会开放部分源代码，在主网上线前开源全部代码。
 
+#### 12月30日 发布16GB测试程序
+  Filecash即将支持16GB扇区，现发布lotus-bench程序供大家测试。
+- PC1封装层数为5层
+- PC2封装层数为4层
+- C2内存消耗会超过200GB
+```
+# Intel lotus-bench 16GB
+wget https://snapshot.file.cash/intel-lotus-bench-16G.tar.gz && tar -zxvf intel-lotus-bench-16G.tar.gz
+# AMD lotus-bench 16GB
+wget https://snapshot.file.cash/amd-lotus-bench-16G.tar.gz && tar -zxvf amd-lotus-bench-16G.tar.gz
+# run lotus-bench
+nohup ./lotus-bench sealing --sector-size 16GiB > bench-16g.log
+```
+
 #### 12月24日 发布[第十二个版本](https://github.com/filecash/lotus/releases/tag/filecash-v0.9.0-fix2)，做了如下改进：
 - 此版本为强制升级版本，务必在高度172870‬(北京时间 12月28日10:00)前完成升级，否则将分叉。
 - specs-actors版本升级为2.0，修改挖矿抵押，详情参考FICIPs提案 https://github.com/filecash/FICIPs/blob/main/FICIPS/ficip-0003.md
@@ -231,6 +245,19 @@ nohup env FIL_PROOFS_USE_GPU_COLUMN_BUILDER=1 FIL_PROOFS_USE_GPU_TREE_BUILDER=1 
 - Filecash Roadmap: https://app.instagantt.com/shared/s/ZOdqrgBwE7zfgrBGkxA7/latest
 
 The FileCash community was formally established on September 18th, 2020, and opened the Github code base on September 19th, 2020. In the initial stage, only some part of the source code will be available during the test stage. The entire source code is planned to be unveiled after mainnet’s launch.
+
+#### 16GB sector testing program launch on 30th December
+  Filecash will support 16GB sector soon and the lotuc-bench program is available for your testing
+- PC1 sealing is 5 layers
+- PC2 sealing is 4 layers
+- C2 RAM consumption estimated to be over 200GB```
+# Intel lotus-bench 16GB
+wget https://snapshot.file.cash/intel-lotus-bench-16G.tar.gz && tar -zxvf intel-lotus-bench-16G.tar.gz
+# AMD lotus-bench 16GB
+wget https://snapshot.file.cash/amd-lotus-bench-16G.tar.gz && tar -zxvf amd-lotus-bench-16G.tar.gz
+# run lotus-bench
+nohup ./lotus-bench sealing --sector-size 16GiB > bench-16g.log
+```
 
 #### [The 12th version](https://github.com/filecash/lotus/releases/tag/filecash-v0.9.0-fix2) has been released on December 24, with the following improvements: 
 - This version is a mandatory upgrade version. The upgrade must be completed before block height 172870 (10:00 on December 28, Beijing time), otherwise it will be forked. 
