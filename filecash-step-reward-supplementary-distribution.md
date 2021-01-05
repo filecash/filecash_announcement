@@ -3,7 +3,8 @@
 
 [English version](#Announcement-on-supplementary-reward-distribution-of-Filecash-free-of-pledge-Step-network)
 
-  Filecash免抵押网络Step奖励已于高度77830(北京时间 2020年11月25日10:00)发放完毕，因部分矿工信息统计不及时，错过了Step奖励发放时机，[由于发放奖励的账号余额已经销毁](https://github.com/filecash/filecash_announcement/blob/master/destruction-of-balance-at-genesis-node-and-at-the-faucet-account.md)，为了早期参与的矿工利益不受影响，这部分矿工的奖励现由Filecash基金会统筹发放，奖励补充发放细则如下：
+  Filecash免抵押网络Step奖励已于高度77830(北京时间 2020年11月25日10:00)发放完毕，因部分矿工信息统计不及时，错过了Step奖励发放时机，[由于发放奖励的账号余额已经销毁](https://github.com/filecash/filecash_announcement/blob/master/destruction-of-balance-at-genesis-node-and-at-the-faucet-account.md)，为了早期参与的矿工利益不受影响，这部分矿工的奖励现由Filecash基金会统筹发放，奖励补充发放细则如下:
+
 - Step奖励补充发放总计7912.8FIC，由Filecash基金会统筹发放。
 - Step奖励补充发放标准：1. 16.8FIC/4GB 2. Step1矿工依旧享受5倍算力。
 - Step奖励补充发放规则：奖励分6次发放，每月18号由基金会转账发放到矿工钱包，6月后奖励发放完毕。
@@ -33,6 +34,7 @@
 [中文版本](#Filecash免抵押网络Step奖励补充发放公告)
 
   The Filecash free-of-pledge Step network reward was distributed at the block height of 77,830(10:00 Beijing time November 25, 2020). Recently, we found that miner information was not reflected thoroughly at the snapshot time of Step reward, and [undistributed reward was sent to the destruction address as planned](https://github.com/filecash/filecash_announcement/blob/master/destruction-of-balance-at-genesis-node-and-at-the-faucet-account.md). For the benefit of early-stage participants, we have determined the supplementary reward distribution with FIC taken from the Foundation portion and specific rules are as follows:
+
 - The Filecash foundation will distribute a total amount of 7912.8FIC for Step network supplementary reward;
 - Step network supplementary reward distribution standard: 1.16.8FIC/4GB 2.Step1 enjoys 5x hash rate;
 - Step network supplementary reward distribution rules: Reward will be distributed from the Foundation address to that of miners’ on 18th every month  for a six month period linearly;
