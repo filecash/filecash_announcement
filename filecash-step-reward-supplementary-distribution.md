@@ -15,14 +15,14 @@
 
 <font color='red'> **Step1补发奖励名单.xls** </font>
 | 矿工 | 算力 | 奖励金额 |
-| :----: | :----: | :----: | :----: |
+| :----: | :----: | :----: |
 | [t01070](https://fic.filscout.io/zh/pc/account?id=f3rd5wt3nbtolapaitecain4k4lfjkipsgjgoocwfhobuansjsewoc6bcjvtpyxsv6idwxejcrdqe6tnv2ilta) | 28GiB | 588 FIC |
 | [t01088](https://fic.filscout.io/zh/pc/account?id=t3vtysh73fjqxpjo6zi37ccu3cqviumk6qfooxjwwx4g5upjbeenqf3omy5svne56blb4zb5bsg73tly2w4d5a) | 8GiB | 168 FIC |
 | [t01271](https://fic.filscout.io/zh/pc/account?id=f3q7evyceeogbr3tf4f6y6ewg7ziiypwyq5s5oabe56byxdoyxtkk5gfjifcjodlptihan6zhz2xsmpso4cjxa) | 116GiB | 2436 FIC |
 
 <font color='red'> **Step2补发奖励名单.xls** </font>
 | 矿工 | 算力 | 奖励金额 |
-| :----: | :----: | :----: | :----: |
+| :----: | :----: | :----: |
 | [t01113](https://fic.filscout.io/zh/pc/account?id=f3skyao6sjhgakq3zx3leipgjful3fqp6q6o3hx7iazs5ezof3m24kvrpjcs2fmbawp5uglmuoto3bsrbqtcnq) | 412GiB | 1730.4 FIC |
 | [t01374](https://fic.filscout.io/zh/pc/account?id=f3wyj5lrjft3hkps44ug4x7l5evs4nqadwzvjybx7d2edumlylinmg7ucztvttvsywltbcszgl4mlqaa2axmja) | 700GiB | 2990.4 FIC |
 
@@ -45,11 +45,13 @@
 
 <font color='red'> **List of Step1 reward.xls** </font>
 | Miner | mining power | FIC reward amount |
+| :----: | :----: | :----: |
 | [t01070](https://fic.filscout.io/zh/pc/account?id=f3rd5wt3nbtolapaitecain4k4lfjkipsgjgoocwfhobuansjsewoc6bcjvtpyxsv6idwxejcrdqe6tnv2ilta) | 28GiB | 588 FIC |
 | [t01088](https://fic.filscout.io/zh/pc/account?id=t3vtysh73fjqxpjo6zi37ccu3cqviumk6qfooxjwwx4g5upjbeenqf3omy5svne56blb4zb5bsg73tly2w4d5a) | 8GiB | 168 FIC |
 | [t01271](https://fic.filscout.io/zh/pc/account?id=f3q7evyceeogbr3tf4f6y6ewg7ziiypwyq5s5oabe56byxdoyxtkk5gfjifcjodlptihan6zhz2xsmpso4cjxa) | 116GiB | 2436 FIC |
 
 <font color='red'> **List of Step2 reward.xls** </font>
 | Miner | mining power | FIC reward amount |
+| :----: | :----: | :----: |
 | [t01113](https://fic.filscout.io/zh/pc/account?id=f3skyao6sjhgakq3zx3leipgjful3fqp6q6o3hx7iazs5ezof3m24kvrpjcs2fmbawp5uglmuoto3bsrbqtcnq) | 412GiB | 1730.4 FIC |
 | [t01374](https://fic.filscout.io/zh/pc/account?id=f3wyj5lrjft3hkps44ug4x7l5evs4nqadwzvjybx7d2edumlylinmg7ucztvttvsywltbcszgl4mlqaa2axmja) | 700GiB | 2990.4 FIC |
