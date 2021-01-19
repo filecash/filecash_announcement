@@ -12,6 +12,17 @@
 
 很高兴Filecash社区在9月18日正式成立，将于9月19日晚些时候开放Github代码库，前期出于保护项目的考虑，测试阶段只会开放部分源代码，在主网上线前开源全部代码。
 
+#### Filecash支持16GB扇区预告
+  Filecash计划在高度244870‬‬（2021年1月22日 10:00）开始支持16GB扇区。
+- 16GB扇区和4GB扇区可共用lotus节点和钱包地址
+- 现有4GB矿机硬件可完美兼容16GB扇区
+- 16GB扇区资源消耗信息如下：
+```
+- 1.PC1封装层数为5层，PC1缓存空间144GB/任务，PC1消耗内存32GB/任务
+- 2.PC2封装层数为4层，PC2缓存空间160GB/任务
+- 3.C2内存消耗超过85GB，显存消耗超过4GB。
+```
+
 #### 12月30日 发布16GB测试程序
   Filecash即将支持16GB扇区，现发布lotus-bench程序供大家测试。
 - PC1封装层数为5层
@@ -245,6 +256,17 @@ nohup env FIL_PROOFS_USE_GPU_COLUMN_BUILDER=1 FIL_PROOFS_USE_GPU_TREE_BUILDER=1 
 - Filecash Roadmap: https://app.instagantt.com/shared/s/ZOdqrgBwE7zfgrBGkxA7/latest
 
 The FileCash community was formally established on September 18th, 2020, and opened the Github code base on September 19th, 2020. In the initial stage, only some part of the source code will be available during the test stage. The entire source code is planned to be unveiled after mainnet’s launch.
+
+#### Filecash to support 16GB sector
+  Filecash plans to support 16GB sector at the block height of 244780(at around 10:00am Jan 22, 2021 Beijing time).
+- Lotus node and wallet address can be used by both 16GB and 4GB sectors.
+- Miner hardware for 4GB sector is also compatible with the 16GB sector.
+- 16GB consumption level
+```
+- 1.PC1 sealing has 5 layers, PC1 cache 155GB/task, PC1 RAM consumption 32GM/task;
+- 2.PC2 sealing has 4 layers, PC2 cache 1160GB/task;
+- 3.C2 RAM consumption exceeds 85GB, VRAM consumption exceeds 4GB.
+```
 
 #### 16GB sector testing program launch on 30th December
   Filecash will support 16GB sector soon and the lotuc-bench program is available for your testing
