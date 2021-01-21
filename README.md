@@ -12,6 +12,9 @@
 
 很高兴Filecash社区在9月18日正式成立，将于9月19日晚些时候开放Github代码库，前期出于保护项目的考虑，测试阶段只会开放部分源代码，在主网上线前开源全部代码。
 
+#### 16GB版本延期公告
+  社区内测期间发现16GB启用逻辑容易分叉，因此我们对这部分逻辑进行了升级，需要增加两天时间验证测试，所以很抱歉在此通知大家：16GB延期了，新的开放高度为253510（北京时间 2021年1月25日 10:00）。
+
 #### 2021年1月19日 Filecash支持16GB扇区预告
   Filecash计划在高度244870‬‬（北京时间 2021年1月22日 10:00）开始支持16GB扇区。
 - 16GB扇区和4GB扇区可共用lotus节点和钱包地址
@@ -85,7 +88,6 @@ make lotus-checker
 【强制升级预告】：下次强制升级会在高度118150(北京时间 12月9日10:00)，请记得提前做好准备。
 
 #### 11月26日 创世节点及水龙头账号余额销毁完成公告
-
 为了维护链的稳定性以及早期矿工能免抵押参与，创世时为创世节点分配了1,500,000FIC，为水龙头分配了2,500,000FIC，共计4,000,000 FIC，目前Filecash主网已经上线，创世节点和水龙头已经完成他们的历史使命，为了所有Filecash参与者的共同利益，社区一致决定:
 <font color='red'> **将创世节点和水龙头剩余的FIC全部销毁 (共计 3,733,011.67 FIC<sup>(1)</sup> )。** </font>
 
@@ -255,6 +257,9 @@ nohup env FIL_PROOFS_USE_GPU_COLUMN_BUILDER=1 FIL_PROOFS_USE_GPU_TREE_BUILDER=1 
 - Filecash Roadmap: https://app.instagantt.com/shared/s/ZOdqrgBwE7zfgrBGkxA7/latest
 
 The FileCash community was formally established on September 18th, 2020, and opened the Github code base on September 19th, 2020. In the initial stage, only some part of the source code will be available during the test stage. The entire source code is planned to be unveiled after mainnet’s launch.
+
+#### Announcement - 16GB sector on-lining is postponed
+  Frequent forking of on-chain data was detected at the initiation logic of 16 GB sector during the internal community test, we hence upgraded part of the logic and it should finish within two more days for test verification. We have hereby determined, for the sake of over-rounded upgrade experience, that the 16GB sector initiates at the block height of 253510(10:00, January 25, 2021, Beijing time).
 
 #### Filecash to support 16GB sector on 19th January, 2021
   Filecash plans to support 16GB sector at the block height of 244780(at around 10:00am Jan 22, 2021 Beijing time).
