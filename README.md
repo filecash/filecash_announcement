@@ -37,7 +37,7 @@
 - 同一机器上可以跑16G-miner和4G-miner，不过两个miner是分开的，端口和目录不能重复
 
 
-#### 16GB版本延期公告
+#### 1月21日 16GB版本延期公告
   社区内测期间发现16GB启用逻辑容易分叉，因此我们对这部分逻辑进行了升级，需要增加两天时间验证测试，所以很抱歉在此通知大家：16GB延期了，新的开放高度为253510（北京时间 2021年1月25日 10:00）。
 
 #### 2021年1月19日 Filecash支持16GB扇区预告
@@ -283,11 +283,11 @@ nohup env FIL_PROOFS_USE_GPU_COLUMN_BUILDER=1 FIL_PROOFS_USE_GPU_TREE_BUILDER=1 
 
 The FileCash community was formally established on September 18th, 2020, and opened the Github code base on September 19th, 2020. In the initial stage, only some part of the source code will be available during the test stage. The entire source code is planned to be unveiled after mainnet’s launch.
 
-#### [The No.13 version](https://github.com/filecash/lotus/releases/tag/filecash-v0.9.0-fix3) released on Jan 22nd made improvements as below:
+#### The No.13 version released on Jan 25nd made improvements as below:
 - This version requires compulsory upgrade and it should finish before the block height reaches 253510th, otherwise your on-chain data might be forked.
 - Network version upgrade and Filecash supports 16GB sector; 
 - Filecash plans to support 16GB sector at the block height of 253510(at around 10:00am Jan 25, 2021 Beijing time);
- 
+
 ##### 16GB sector initiation process
 ```
 # 1.Download verification file
@@ -296,13 +296,18 @@ The FileCash community was formally established on September 18th, 2020, and ope
 # 2.Initiate lotus node
   nohup lotus daemon > daemon.log 2>&1 &
 # 3.Initiate 16GB miner
-  export LOTUS_MINER_PATH=/root/.lotusminer-16gb
   nohup lotus-miner init --owner=f3xxxxxxxxx --sector-size=16GiB > init-16gb.log 2>&1 &
 # 4.Initiate 16GB miner
   nohup lotus-miner run > miner-16gb.log 2>&1 &
 ```
 
-#### Announcement - 16GB sector on-lining is postponed
+##### Special notice
+- Miner hardware for 4GB sector is also compatible with the 16GB sector;
+- 16GB-miner and 4GB-miner have their own miner number, but they can share a single lotus node and wallet address;
+- 16G-miner and 4G-miner can operate on one particular set of equipment, whereas these two miners are separated, which means their terminals and catalogue should be different.
+
+
+#### Announcement - 16GB sector on-lining is postponed on 21th January, 2021
   Frequent forking of on-chain data was detected at the initiation logic of 16 GB sector during the internal community test, we hence upgraded part of the logic and it should finish within two more days for test verification. We have hereby determined, for the sake of over-rounded upgrade experience, that the 16GB sector initiates at the block height of 253510(10:00, January 25, 2021, Beijing time).
 
 #### Filecash to support 16GB sector on 19th January, 2021
