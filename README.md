@@ -28,6 +28,7 @@
   export LOTUS_MINER_PATH=/root/.lotusminer-16gb
   nohup lotus-miner init --owner=f3xxxxxxxxx --sector-size=16GiB > init-16gb.log 2>&1 &
 # 4.启动16GB矿工
+  export LOTUS_MINER_PATH=/root/.lotusminer-16gb
   nohup lotus-miner run > miner-16gb.log 2>&1 &
 ```
 ##### 注意事项
