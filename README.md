@@ -25,6 +25,7 @@
 # 2.启用lotus节点
   nohup lotus daemon > daemon.log 2>&1 &
 # 3.初始16GB矿工
+  export LOTUS_MINER_PATH=/root/.lotusminer-16gb
   nohup lotus-miner init --owner=f3xxxxxxxxx --sector-size=16GiB > init-16gb.log 2>&1 &
 # 4.启动16GB矿工
   nohup lotus-miner run > miner-16gb.log 2>&1 &
@@ -289,6 +290,7 @@ The FileCash community was formally established on September 18th, 2020, and ope
 # 2.Initiate lotus node
   nohup lotus daemon > daemon.log 2>&1 &
 # 3.Initiate 16GB miner
+  export LOTUS_MINER_PATH=/root/.lotusminer-16gb
   nohup lotus-miner init --owner=f3xxxxxxxxx --sector-size=16GiB > init-16gb.log 2>&1 &
 # 4.Initiate 16GB miner
   nohup lotus-miner run > miner-16gb.log 2>&1 &
