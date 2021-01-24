@@ -12,6 +12,17 @@
 
 很高兴Filecash社区在9月18日正式成立，将于9月19日晚些时候开放Github代码库，前期出于保护项目的考虑，测试阶段只会开放部分源代码，在主网上线前开源全部代码。
 
+#### 1月24日 16GB版本再次延期公告
+  新版本在回归测试中发现bug：重新同步节点会在高度(90582/151555/247855)出现数据同步异常，bug影响很大，只能解决后再支持16GB扇区，具体延长日期待定，非常抱歉，给大家填麻烦了。
+升级完的小伙伴，请回退到[v0.9.0-fix2](https://github.com/filecash/lotus/releases/filecash-v0.9.0-fix2)：
+```
+1.程序回滚：
+  wget https://snapshot.file.cash/amd-filecash-v0.9.0-fix2.tar.gz && tar -zxvf amd-filecash-v0.9.0-fix2.tar.gz
+  wget https://snapshot.file.cash/intel-filecash-v0.9.0-fix2.tar.gz && tar -zxvf intel-filecash-v0.9.0-fix2.tar.gz
+2.代码回滚：
+  git clone https://github.com/filecash/lotus_builder && cd lotus_builder && bash build.sh -a
+```
+
 #### 1月22日发布[第十三个版本](https://github.com/filecash/lotus/releases/tag/filecash-v0.9.0-fix3)，做了如下改进：
 - 此版本为强制升级版本，在高度253510前完成升级。
 - 升级网络版本号，Filecash支持16GB扇区 
