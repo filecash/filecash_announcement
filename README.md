@@ -294,6 +294,17 @@ nohup env FIL_PROOFS_USE_GPU_COLUMN_BUILDER=1 FIL_PROOFS_USE_GPU_TREE_BUILDER=1 
 
 The FileCash community was formally established on September 18th, 2020, and opened the Github code base on September 19th, 2020. In the initial stage, only some part of the source code will be available during the test stage. The entire source code is planned to be unveiled after mainnet’s launch.
 
+#### Announcement on 16GB sector version being postponed - Jan 24th. 
+  A bug was detected at the regression testing in the latest version, which is abnormal data synchronization at the block height of 90582/151555/247855 when node resynchronizing. We will resolve this problem before the on-lining of 16GB sector. We sincerely apologize for all inconvenience caused, please follow our furthur announcement. 
+For those who have upgraded already, please rerun to [v0.9.0-fix2](https://github.com/filecash/lotus/releases/filecash-v0.9.0-fix2)：
+```
+1.System rerun:
+  wget https://snapshot.file.cash/amd-filecash-v0.9.0-fix2.tar.gz && tar -zxvf amd-filecash-v0.9.0-fix2.tar.gz
+  wget https://snapshot.file.cash/intel-filecash-v0.9.0-fix2.tar.gz && tar -zxvf intel-filecash-v0.9.0-fix2.tar.gz
+2.Code rerun:
+  git clone https://github.com/filecash/lotus_builder && cd lotus_builder && bash build.sh -a
+```
+
 #### The No.13 version released on Jan 25nd made improvements as below:
 - This version requires compulsory upgrade and it should finish before the block height reaches 253510th, otherwise your on-chain data might be forked.
 - Network version upgrade and Filecash supports 16GB sector; 
