@@ -318,9 +318,9 @@ The FileCash community was formally established on September 18th, 2020, and ope
 
 #### Announcement - [14th version](https://github.com/filecash/lotus/releases/tag/filecash-v0.9.0-fix4) released on January 29. Abnormal data synchronization problem fixed and Filecash now supports 16GB sectors.
 
-- This version is a mandatory upgrade. Please complete the upgrade before Block 276550 (Beijing time, February 2, 2021, 10:00).
+- This version is a mandatory upgrade. Please complete the upgrade before epoch 276550 (Beijing time, February 2, 2021, 10:00).
 - Upgrade the network version number, Filecash now supports 16GB sectors.
-- The 16GB sector will be opened after Block 276550 (10:00 on February 2, 2021, Beijing time).
+- The 16GB sector will be opened after epoch 276550 (10:00 on February 2, 2021, Beijing time).
 - The abnormal data synchronization problem has been fixed. Bug analysis: some messages conflict with the logic of the newly added sector, and the node verification fails, triggering a synchronization exception.
 
 ```
