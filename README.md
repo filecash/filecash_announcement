@@ -24,13 +24,12 @@
   nohup lotus fetch-params 4GiB > fetch-params-4gb.log 2>&1 &
   nohup lotus fetch-params 16GiB > fetch-params-16gb.log 2>&1 &
 # 2.启用lotus节点
-  nohup lotus daemon > daemon.log 2>&1 &
+  export LOTUS_PATH=/root/.lotus
+  nohup lotus daemon --api=1234 > daemon.log 2>&1 &
 # 3.初始16GB矿工
-  export LOTUS_MINER_PATH=/root/.lotusminer-16gb
-  nohup lotus-miner init --owner=f3xxxxxxxxx --sector-size=16GiB > init-16gb.log 2>&1 &
+  nohup lotus-miner --miner-repo=/root/.lotusminer-16gb  init --owner=f3xxxxxxxxx --sector-size=16GiB > init-16gb.log 2>&1 &
 # 4.启动16GB矿工
-  export LOTUS_MINER_PATH=/root/.lotusminer-16gb
-  nohup lotus-miner run > miner-16gb.log 2>&1 &
+  nohup lotus-miner --miner-repo=/root/.lotusminer-16gb  run --miner-api=2345 > miner-16gb.log 2>&1 &
 ```
 
 ##### 注意事项
