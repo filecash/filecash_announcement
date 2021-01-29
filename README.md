@@ -12,7 +12,7 @@
 
 很高兴Filecash社区在9月18日正式成立，已开放全部代码。
 
-#### 1月25日 发布[第十四个版本](https://github.com/filecash/lotus/releases/tag/filecash-v0.9.0-fix4)，修复数据同步异常问题，Filecash支持16GB扇区。 
+#### 1月29日 发布[第十四个版本](https://github.com/filecash/lotus/releases/tag/filecash-v0.9.0-fix4)，修复数据同步异常问题，Filecash支持16GB扇区。 
 - 此版本为强制升级版本，请在高度273670（北京时间 2021年2月1日 10:00）前完成升级。
 - 升级网络版本号，Filecash支持16GB扇区。
 - 在高度273670（北京时间 2021年2月1日 10:00）以后开放16GB扇区。
