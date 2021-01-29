@@ -10,7 +10,33 @@
 - FICIPs: https://github.com/filecash/FICIPs/
 - Filecash Roadmap: https://app.instagantt.com/shared/s/ZOdqrgBwE7zfgrBGkxA7/latest
 
-很高兴Filecash社区在9月18日正式成立，将于9月19日晚些时候开放Github代码库，前期出于保护项目的考虑，测试阶段只会开放部分源代码，在主网上线前开源全部代码。
+很高兴Filecash社区在9月18日正式成立，已开放全部代码。
+
+#### 1月25日 发布[第十四个版本](https://github.com/filecash/lotus/releases/tag/filecash-v0.9.0-fix4)，修复数据同步异常问题，Filecash支持16GB扇区。 
+- 此版本为强制升级版本，请在高度273670（北京时间 2021年2月1日 10:00）前完成升级。
+- 升级网络版本号，Filecash支持16GB扇区。
+- 在高度273670（北京时间 2021年2月1日 10:00）以后开放16GB扇区。
+- 修复数据同步异常问题，故障分析：部分消息和新增扇区逻辑有冲突，节点校验失败，故而引发同步异常。
+
+##### 16GB扇区启用流程：
+```
+# 1.下载证明文件
+  nohup lotus fetch-params 4GiB > fetch-params-4gb.log 2>&1 &
+  nohup lotus fetch-params 16GiB > fetch-params-16gb.log 2>&1 &
+# 2.启用lotus节点
+  nohup lotus daemon > daemon.log 2>&1 &
+# 3.初始16GB矿工
+  export LOTUS_MINER_PATH=/root/.lotusminer-16gb
+  nohup lotus-miner init --owner=f3xxxxxxxxx --sector-size=16GiB > init-16gb.log 2>&1 &
+# 4.启动16GB矿工
+  export LOTUS_MINER_PATH=/root/.lotusminer-16gb
+  nohup lotus-miner run > miner-16gb.log 2>&1 &
+```
+
+##### 注意事项
+- 现有4GB矿机硬件可兼容16GB扇区。
+- 16GB-miner和4GB-miner是两个不同的矿工号，可共用lotus节点和钱包地址。
+- 16GB-miner和4GB-miner可共用一台机器，端口和目录不能重复。
 
 #### 1月24日 16GB版本再次延期公告
   新版本在回归测试中发现bug：重新同步节点会在高度(90582/151555/247855)出现数据同步异常，解决后再支持16GB扇区，具体日期待定，非常抱歉，给大家填麻烦了。
