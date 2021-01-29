@@ -20,6 +20,7 @@
 ```
 # 16GB扇区启用流程：
 - 1.下载证明文件
+  export FIL_PROOFS_PARAMETER_CACHE=/mnt/proofs
   nohup lotus fetch-params 4GiB > fetch-params-4gb.log 2>&1 &
   nohup lotus fetch-params 16GiB > fetch-params-16gb.log 2>&1 &
 - 2.启用lotus节点
@@ -325,6 +326,7 @@ The FileCash community was formally established on September 18th, 2020, and ope
 ```
 # 16GB sector activation process:
 - 1. Download the supporting documents
+  export FIL_PROOFS_PARAMETER_CACHE=/mnt/proofs
   nohup lotus fetch-params 4GiB> fetch-params-4gb.log 2>&1 &
   nohup lotus fetch-params 16GiB> fetch-params-16gb.log 2>&1 &
 - 2. Enable lotus node
