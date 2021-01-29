@@ -17,18 +17,17 @@
 - 升级网络版本号，Filecash支持16GB扇区。
 - 在高度273670（北京时间 2021年2月1日 10:00）以后开放16GB扇区。
 - 修复数据同步异常问题，故障分析：部分消息和新增扇区逻辑有冲突，节点校验失败，故而引发同步异常。
-
 ```
 # 16GB扇区启用流程：
-## 1.下载证明文件
+- 1.下载证明文件
   nohup lotus fetch-params 4GiB > fetch-params-4gb.log 2>&1 &
   nohup lotus fetch-params 16GiB > fetch-params-16gb.log 2>&1 &
-## 2.启用lotus节点
+- 2.启用lotus节点
   export LOTUS_PATH=/root/.lotus
   nohup lotus daemon --api=1234 > daemon.log 2>&1 &
-## 3.初始16GB矿工
+- 3.初始16GB矿工
   nohup lotus-miner --miner-repo=/root/.lotusminer-16gb  init --owner=f3xxxxxxxxx --sector-size=16GiB > init-16gb.log 2>&1 &
-## 4.启动16GB矿工
+- 4.启动16GB矿工
   nohup lotus-miner --miner-repo=/root/.lotusminer-16gb  run --miner-api=2345 > miner-16gb.log 2>&1 &
 
 # 注意事项
@@ -52,26 +51,25 @@
 - 此版本为强制升级版本，在高度253510前完成升级。
 - 升级网络版本号，Filecash支持16GB扇区 
 - 在高度253510（北京时间 2021年1月25日 10:00）以后开放16GB扇区
-
-##### 16GB扇区启用流程：
 ```
-# 1.下载证明文件
+# 16GB扇区启用流程：
+- 1.下载证明文件
   nohup lotus fetch-params 4GiB > fetch-params-4gb.log 2>&1 &
   nohup lotus fetch-params 16GiB > fetch-params-16gb.log 2>&1 &
-# 2.启用lotus节点
+- 2.启用lotus节点
   nohup lotus daemon > daemon.log 2>&1 &
-# 3.初始16GB矿工
+- 3.初始16GB矿工
   export LOTUS_MINER_PATH=/root/.lotusminer-16gb
   nohup lotus-miner init --owner=f3xxxxxxxxx --sector-size=16GiB > init-16gb.log 2>&1 &
-# 4.启动16GB矿工
+- 4.启动16GB矿工
   export LOTUS_MINER_PATH=/root/.lotusminer-16gb
   nohup lotus-miner run > miner-16gb.log 2>&1 &
-```
-##### 注意事项
+
+# 注意事项
 - 现有4GB矿机硬件可兼容16GB扇区
 - 16GB-miner和4GB-miner是两个不同的矿工号，可共用lotus节点和钱包地址
 - 同一机器上可以跑16G-miner和4G-miner，不过两个miner是分开的，端口和目录不能重复
-
+```
 
 #### 1月21日 16GB版本延期公告
   社区内测期间发现16GB启用逻辑容易分叉，因此我们对这部分逻辑进行了升级，需要增加两天时间验证测试，所以很抱歉在此通知大家：16GB延期了，新的开放高度为253510（北京时间 2021年1月25日 10:00）。
@@ -229,10 +227,7 @@ Filecash免抵押网络Step奖励已于高度77830(北京时间 2020年11月25�
 - 请保存好免抵押网络Step1的数据和私钥，主网上线会有非对称映射。
 - 请将免抵押网络Step1的挖矿地址和`lotus-miner info`命令界面截图发送至基金会邮箱filecash@file.cash作为非对称映射的部分参考。
 欢迎各位参与者在社区中积极反馈，参与Filecash生态的建设。
-
-一键编译：
-https://github.com/filecash/lotus_builder
-
+```
 亲爱的Filecash爱好者，Filecash现已开放[Step2水龙头](https://faucet.file.cash)，以下是水龙头使用注意事项：
 - 1.同IP同一个Git账号请勿频繁授权登录
 - 2.同Git账号8小时内只能申领一次
@@ -240,8 +235,9 @@ https://github.com/filecash/lotus_builder
 - 4.t3xxxx...xx 地址有交易后会生成 t0xxxx 地址
 - 5.t3xxxx...xx + t0xxxx 地址一起填写可以继续领取水龙头
 
+一键编译：https://github.com/filecash/lotus_builder
 水龙头：https://faucet.file.cash
-
+```
 
 #### 10月15日发布的[第六个版本](https://github.com/filecash/lotus/releases/tag/filecash-v0.7.0) ，做了如下改进：
 - 密封大小调整为4G。
@@ -335,24 +331,23 @@ For those who have upgraded already, please rerun to [v0.9.0-fix2](https://githu
 - Network version upgrade and Filecash supports 16GB sector; 
 - Filecash plans to support 16GB sector at the block height of 253510(at around 10:00am Jan 25, 2021 Beijing time);
 
-##### 16GB sector initiation process
 ```
-# 1.Download verification file
+# 16GB sector initiation process
+- 1.Download verification file
   nohup lotus fetch-params 4GiB > fetch-params-4gb.log 2>&1 &
   nohup lotus fetch-params 16GiB > fetch-params-16gb.log 2>&1 &
-# 2.Initiate lotus node
+- 2.Initiate lotus node
   nohup lotus daemon > daemon.log 2>&1 &
-# 3.Initiate 16GB miner
+- 3.Initiate 16GB miner
   nohup lotus-miner init --owner=f3xxxxxxxxx --sector-size=16GiB > init-16gb.log 2>&1 &
-# 4.Initiate 16GB miner
+- 4.Initiate 16GB miner
   nohup lotus-miner run > miner-16gb.log 2>&1 &
-```
 
-##### Special notice
+# Special notice
 - Miner hardware for 4GB sector is also compatible with the 16GB sector;
 - 16GB-miner and 4GB-miner have their own miner number, but they can share a single lotus node and wallet address;
 - 16G-miner and 4G-miner can operate on one particular set of equipment, whereas these two miners are separated, which means their terminals and catalogue should be different.
-
+```
 
 #### Announcement - 16GB sector on-lining is postponed on 21th January, 2021
   Frequent forking of on-chain data was detected at the initiation logic of 16 GB sector during the internal community test, we hence upgraded part of the logic and it should finish within two more days for test verification. We have hereby determined, for the sake of over-rounded upgrade experience, that the 16GB sector initiates at the block height of 253510(10:00, January 25, 2021, Beijing time).
