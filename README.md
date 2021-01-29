@@ -18,24 +18,24 @@
 - 在高度273670（北京时间 2021年2月1日 10:00）以后开放16GB扇区。
 - 修复数据同步异常问题，故障分析：部分消息和新增扇区逻辑有冲突，节点校验失败，故而引发同步异常。
 
-##### 16GB扇区启用流程：
 ```
-# 1.下载证明文件
+# 16GB扇区启用流程：
+## 1.下载证明文件
   nohup lotus fetch-params 4GiB > fetch-params-4gb.log 2>&1 &
   nohup lotus fetch-params 16GiB > fetch-params-16gb.log 2>&1 &
-# 2.启用lotus节点
+## 2.启用lotus节点
   export LOTUS_PATH=/root/.lotus
   nohup lotus daemon --api=1234 > daemon.log 2>&1 &
-# 3.初始16GB矿工
+## 3.初始16GB矿工
   nohup lotus-miner --miner-repo=/root/.lotusminer-16gb  init --owner=f3xxxxxxxxx --sector-size=16GiB > init-16gb.log 2>&1 &
-# 4.启动16GB矿工
+## 4.启动16GB矿工
   nohup lotus-miner --miner-repo=/root/.lotusminer-16gb  run --miner-api=2345 > miner-16gb.log 2>&1 &
-```
 
-##### 注意事项
+# 注意事项
 - 现有4GB矿机硬件可兼容16GB扇区。
 - 16GB-miner和4GB-miner是两个不同的矿工号，可共用lotus节点和钱包地址。
 - 16GB-miner和4GB-miner可共用一台机器，端口和目录不能重复。
+```
 
 #### 1月24日 16GB版本再次延期公告
   新版本在回归测试中发现bug：重新同步节点会在高度(90582/151555/247855)出现数据同步异常，解决后再支持16GB扇区，具体日期待定，非常抱歉，给大家填麻烦了。
