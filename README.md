@@ -13,9 +13,9 @@
 很高兴Filecash社区在9月18日正式成立，已开放全部代码。
 
 #### 1月29日 发布[第十四个版本](https://github.com/filecash/lotus/releases/tag/filecash-v0.9.0-fix4)，修复数据同步异常问题，Filecash支持16GB扇区。 
-- 此版本为强制升级版本，请在高度273670（北京时间 2021年2月1日 10:00）前完成升级。
+- 此版本为强制升级版本，请在高度276550（北京时间 2021年2月2日 10:00）前完成升级。
 - 升级网络版本号，Filecash支持16GB扇区。
-- 在高度273670（北京时间 2021年2月1日 10:00）以后开放16GB扇区。
+- 在高度276550（北京时间 2021年2月2日 10:00）以后开放16GB扇区。
 - 修复数据同步异常问题，故障分析：部分消息和新增扇区逻辑有冲突，节点校验失败，故而引发同步异常。
 ```
 # 16GB扇区启用流程：
@@ -314,6 +314,32 @@ nohup env FIL_PROOFS_USE_GPU_COLUMN_BUILDER=1 FIL_PROOFS_USE_GPU_TREE_BUILDER=1 
 - Filecash Roadmap: https://app.instagantt.com/shared/s/ZOdqrgBwE7zfgrBGkxA7/latest
 
 The FileCash community was formally established on September 18th, 2020, and opened the Github code base on September 19th, 2020. In the initial stage, only some part of the source code will be available during the test stage. The entire source code is planned to be unveiled after mainnet’s launch.
+
+#### Announcement - [14th version](https://github.com/filecash/lotus/releases/tag/filecash-v0.9.0-fix4) released on January 29. Abnormal data synchronization problem fixed and Filecash now supports 16GB sectors.
+
+- This version is a mandatory upgrade. Please complete the upgrade before Block 276550 (Beijing time, February 2, 2021, 10:00).
+- Upgrade the network version number, Filecash now supports 16GB sectors.
+- The 16GB sector will be opened after Block 276550 (10:00 on February 2, 2021, Beijing time).
+- The abnormal data synchronization problem has been fixed. Bug analysis: some messages conflict with the logic of the newly added sector, and the node verification fails, triggering a synchronization exception.
+
+```
+# 16GB sector activation process:
+- 1. Download the supporting documents
+  nohup lotus fetch-params 4GiB> fetch-params-4gb.log 2>&1 &
+  nohup lotus fetch-params 16GiB> fetch-params-16gb.log 2>&1 &
+- 2. Enable lotus node
+  export LOTUS_PATH=/root/.lotus
+  nohup lotus daemon --api=1234> daemon.log 2>&1 &
+- 3. Initial 16GB miner
+  nohup lotus-miner --miner-repo=/root/.lotusminer-16gb  init --owner=f3xxxxxxxxx --sector-size=16GiB> init-16gb.log 2>&1 &
+- 4. Start 16GB miner
+  nohup lotus-miner --miner-repo=/root/.lotusminer-16gb  run --miner-api=2345> miner-16gb.log 2>&1 &
+
+# Precautions
+- The existing 4GB miner hardware is compatible with 16GB sectors.
+- 16GB-miner and 4GB-miner are two different miner numbers, which can share lotus node and wallet addresses.
+- 16GB-miner and 4GB-miner can share one machine, but the port and directory cannot be repeated.
+```
 
 #### Announcement on 16GB sector version being postponed - Jan 24th. 
   A bug was detected at the regression testing in the latest version, which is abnormal data synchronization at the block height of 90582/151555/247855 when node resynchronizing. We will resolve this problem before the on-lining of 16GB sector. We sincerely apologize for all inconvenience caused, please follow our furthur announcement. 
