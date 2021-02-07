@@ -325,6 +325,15 @@ nohup env FIL_PROOFS_USE_GPU_COLUMN_BUILDER=1 FIL_PROOFS_USE_GPU_TREE_BUILDER=1 
 
 The FileCash community was formally established on September 18th, 2020, and opened the Github code base on September 19th, 2020. In the initial stage, only some part of the source code will be available during the test stage. The entire source code is planned to be unveiled after mainnet’s launch.
 
+
+#### v1.2.2 Beta version to release on Feb 7th
+- Filecash code upgrade to v1.2.2;
+- This is a beta version that does not request compulsory upgrade and can coexist with the current v0.9.0.
+```
+# v1.2.2 available at:
+git clone https://github.com/filecash/lotus_builder --branch=filecash/v1.2.2
+```
+
 #### Announcement - [14th version](https://github.com/filecash/lotus/releases/tag/filecash-v0.9.0-fix4) released on January 29. Abnormal data synchronization problem fixed and Filecash now supports 16GB sectors.
 
 - This version is a mandatory upgrade. Please complete the upgrade before epoch 276550 (Beijing time, February 2, 2021, 10:00).
