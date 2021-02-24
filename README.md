@@ -12,6 +12,11 @@
 
 很高兴Filecash社区在9月18日正式成立，已开放全部代码。
 
+#### 2月24日 发布[第十五个版本](https://github.com/filecash/lotus/releases/tag/filecash-v0.9.0-fix5)，做了如下改进：
+- 此版本为强制升级版本，在高度345670（北京时间 2021年2月26日 10:00）前完成升级。
+- 修复Gaslimit引起WindowPOST消息提交失败问题
+- 修复同步支持两个版本v0.9.0和v1.2.2
+
 #### 2月7日 发布v1.2.2 Beta测试版本
 - Filecash升级代码到v1.2.2
 - 此为测试版，不强制升级，可与现有v0.9.0共存
@@ -325,6 +330,10 @@ nohup env FIL_PROOFS_USE_GPU_COLUMN_BUILDER=1 FIL_PROOFS_USE_GPU_TREE_BUILDER=1 
 
 The FileCash community was formally established on September 18th, 2020, and opened the Github code base on September 19th, 2020. In the initial stage, only some part of the source code will be available during the test stage. The entire source code is planned to be unveiled after mainnet’s launch.
 
+#### Announcement - [15th version](https://github.com/filecash/lotus/releases/tag/filecash-v0.9.0-fix5) released on February 24. The following upgrades have been made to the 15th Version.
+- This is a mandatory upgrade. The upgrade will be completed before the epoch of 34,570 (Beijing time, February 26, 2021, 10:00).
+- Fixed the issue of WindowPOST message submission failure caused by Gaslimit.
+- Fixed sync support for two versions: v0.9.0 and v1.2.2.
 
 #### v1.2.2 Beta version to release on Feb 7th
 - Filecash code upgrade to v1.2.2;
@@ -335,7 +344,6 @@ git clone https://github.com/filecash/lotus_builder --branch=filecash/v1.2.2
 ```
 
 #### Announcement - [14th version](https://github.com/filecash/lotus/releases/tag/filecash-v0.9.0-fix4) released on January 29. Abnormal data synchronization problem fixed and Filecash now supports 16GB sectors.
-
 - This version is a mandatory upgrade. Please complete the upgrade before epoch 276550 (Beijing time, February 2, 2021, 10:00).
 - Upgrade the network version number, Filecash now supports 16GB sectors.
 - The 16GB sector will be opened after epoch 276550 (10:00 on February 2, 2021, Beijing time).
