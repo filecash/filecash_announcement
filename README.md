@@ -14,7 +14,7 @@
 
 #### 2月24日 发布[第十五个版本](https://github.com/filecash/lotus/releases/tag/filecash-v0.9.0-fix5)，做了如下改进：
 - 此版本为强制升级版本，在高度345670（北京时间 2021年2月26日 10:00）前完成升级。
-- 修复Gaslimit引起WindowPOST消息提交失败问题
+- 修复Gaslimit引起特殊条件下WindowPOST消息提交失败问题
 - 修复同步支持两个版本v0.9.0和v1.2.2
 
 #### 2月7日 发布v1.2.2 Beta测试版本
@@ -332,7 +332,7 @@ The FileCash community was formally established on September 18th, 2020, and ope
 
 #### Announcement - [15th version](https://github.com/filecash/lotus/releases/tag/filecash-v0.9.0-fix5) released on February 24. The following upgrades have been made to the 15th Version.
 - This is a mandatory upgrade. The upgrade will be completed before the epoch of 34,570 (Beijing time, February 26, 2021, 10:00).
-- Fixed the issue of WindowPOST message submission failure caused by Gaslimit.
+- Fixed the issue of WindowPOST message submission failure under special conditions caused by Gaslimit.
 - Fixed sync support for two versions: v0.9.0 and v1.2.2.
 
 #### v1.2.2 Beta version to release on Feb 7th
