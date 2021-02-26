@@ -331,7 +331,7 @@ nohup env FIL_PROOFS_USE_GPU_COLUMN_BUILDER=1 FIL_PROOFS_USE_GPU_TREE_BUILDER=1 
 The FileCash community was formally established on September 18th, 2020, and opened the Github code base on September 19th, 2020. In the initial stage, only some part of the source code will be available during the test stage. The entire source code is planned to be unveiled after mainnet’s launch.
 
 #### Announcement - [15th version](https://github.com/filecash/lotus/releases/tag/filecash-v0.9.0-fix5) released on February 24. The following upgrades have been made to the 15th Version.
-- This is a mandatory upgrade. The upgrade will be completed before the epoch of 34,570 (Beijing time, February 26, 2021, 10:00).
+- This is a mandatory upgrade. The upgrade will be completed before the epoch of 345,670 (Beijing time, February 26, 2021, 10:00).
 - Reduce windowpost Gas fees, Fixed the bug of windowpost message submission failure under special conditions.
 - Fixed sync support for two versions: v0.9.0 and v1.2.2.
 
