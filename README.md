@@ -12,6 +12,15 @@
 
 很高兴Filecash社区在9月18日正式成立，已开放全部代码。
 
+#### 3月5日 发布[第十六个版本](https://github.com/filecash/lotus/releases/tag/filecash-v1.2.2)，主网代码升级到v1.2.2，做了如下改进：
+- 发布1.2.2正式版，不强制升级，与现有v0.9.0共存
+- 支持mutli-sdr模式，mutli-sdr相比single效率提升30%
+- 增加 avx/avx2 指令计算SHA512:
+- 　　　1.Intel平台: avx相比sse效率提升15%，avx2相比sse效率提升30%
+- 　　　2.AMD平台: avx相比sse效率降低70%(AMD位宽只有Intel一半，所以avx效率低是正常的)，avx2相比sse效率提升20%
+- 支持钱包加锁，提升钱包安全性
+- 增加自动下发任务功能
+
 #### 2月24日 发布[第十五个版本](https://github.com/filecash/lotus/releases/tag/filecash-v0.9.0-fix5)，做了如下改进：
 - 此版本为强制升级版本，在高度345670（北京时间 2021年2月26日 10:00）前完成升级。
 - 降低 windowpost Gas费用，修复特殊条件下 windowpost 消息提交失败bug
@@ -329,6 +338,21 @@ nohup env FIL_PROOFS_USE_GPU_COLUMN_BUILDER=1 FIL_PROOFS_USE_GPU_TREE_BUILDER=1 
 - Filecash Roadmap: https://app.instagantt.com/shared/s/ZOdqrgBwE7zfgrBGkxA7/latest
 
 The FileCash community was formally established on September 18th, 2020, and opened the Github code base on September 19th, 2020. In the initial stage, only some part of the source code will be available during the test stage. The entire source code is planned to be unveiled after mainnet’s launch.
+
+#### [16th version](https://github.com/filecash/lotus/releases/tag/filecash-v1.2.2) to released on 5th March - mainnet upgrade to v1.2.2 and improvements as below has been made
+- 1.2.2 official version to release. No compulsory upgrade and it is compatible with v0.9.0;
+- Support mutli-sdr mode, mutli-sdr efficiency up by 30% compared to single; 
+- avx/avx2 instruction for SHA512 implemented:
+-   1. At Intel terminal: avx is 15% more efficient than sse, and avx2 is 30% more efficient than sse;
+-   2. At AMD terminal: avx is 70% less efficient than sse, and avx2 is 20% more efficient than sse;
+- Support wallet lock for enhanced security;
+- Automatic task assignment function added. 
+
+Support OS: Ubuntu 18.04 LTS
+wget https://snapshot.file.cash/amd-filecash-v1.2.2.tar.gz && tar -zxvf amd-filecash-v1.2.2.tar.gz
+wget https://snapshot.file.cash/intel-filecash-v1.2.2.tar.gz && tar -zxvf intel-filecash-v1.2.2.tar.gz
+
+One-click Compile Script: https://github.com/filecash/lotus_builder
 
 #### Announcement - [15th version](https://github.com/filecash/lotus/releases/tag/filecash-v0.9.0-fix5) released on February 24. The following upgrades have been made to the 15th Version.
 - This is a mandatory upgrade. The upgrade will be completed before the epoch of 345,670 (Beijing time, February 26, 2021, 10:00).
