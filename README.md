@@ -12,6 +12,18 @@
 
 很高兴Filecash社区在9月18日正式成立，已开放全部代码。
 
+#### 6月22日  1.5.0升级预告
+预计在2021年7月10号左右正式发布1.5.0：
+- 读写性能优化：window和winning合并读
+- 出块性能优化：window和winning并行
+- 完善分组功能：最大任务数和分组的细节优化
+- 自动任务：根据账户余额自动匹配发送任务
+- AP优化：AP模板功能，缩短AP时间
+- P1优化：迭代avx2加速代码，提高avx2计算性能
+- P2优化：多卡并行加速
+- C2优化：多卡多任务、多卡单任务
+- 集成远程C2服务：给旷工提供多种选择
+
 #### 3月5日 发布[第十六个版本](https://github.com/filecash/lotus/releases/tag/filecash-v1.2.2)，主网代码升级到v1.2.2，做了如下改进：
 - 发布1.2.2正式版，不强制升级，与现有v0.9.0共存
 - 支持mutli-sdr模式，mutli-sdr相比single效率提升30%
@@ -338,6 +350,18 @@ nohup env FIL_PROOFS_USE_GPU_COLUMN_BUILDER=1 FIL_PROOFS_USE_GPU_TREE_BUILDER=1 
 - Filecash Roadmap: https://app.instagantt.com/shared/s/ZOdqrgBwE7zfgrBGkxA7/latest
 
 The FileCash community was formally established on September 18th, 2020, and opened the Github code base on September 19th, 2020. In the initial stage, only some part of the source code will be available during the test stage. The entire source code is planned to be unveiled after mainnet’s launch.
+
+#### June 22, 2021  1.5.0 upgrade preview
+Expected to publish the 1.5.0 on July 10, 2021:
+- Read and write optimization: Read of window and winning combined;
+- Block generation optimization:Pairing of window and winning;
+- Improve the grouping function: Detail optimization of the maximum number of tasks and groups;
+- Auto-tasking: Automatically matching the tasks sent based on the account balance;
+- AP optimization: AP template functionality for shortened AP time;
+- P1 optimization: Iterate avx2 acceleration code to improve avx2 computing performance;
+- P2 optimization: Multi-card parallel acceleration;
+- C2 optimization: Multi-card multi-task and multi-card single-task;
+- Integrated Remote C2 Services: Multiple options for miners.
 
 #### [16th version](https://github.com/filecash/lotus/releases/tag/filecash-v1.2.2) to released on 5th March - mainnet upgrade to v1.2.2 and improvements as below has been made
 - 1.2.2 official version to release. No compulsory upgrade and it is compatible with v0.9.0;
