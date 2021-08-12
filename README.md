@@ -12,6 +12,16 @@
 
 很高兴Filecash社区在9月18日正式成立，已开放全部代码。
 
+#### 2021年8月12号发布[第十七个版本](https://github.com/filecash/lotus/releases/tag/filecash-v1.5.0)，主网代码升级到v1.5.0，做了如下改进：
+- 读写性能优化：window和winning合并读
+- 完善分组功能：最大任务数和分组的细节优化
+- 修复偶发性winpost提交错误，提高windowpost消息成功率
+- AP优化：AP模板功能，缩短AP时间
+- P2优化：opencl加速；多卡并行计算
+- 钱包安全性加强：钱包加密，账户资金安全有保障    使用说明书：https://github.com/filecash/lotus/wiki
+- 引入moran666666开源的分布式miner：windowpost-miner / winningpost-miner / seal-miner    使用说明书：https://github.com/filecash/lotus/wiki
+- 引入sbwtw开源的远程C2服务：为矿工提供多种选择    使用说明书：https://github.com/filecash/lotus/wiki
+
 #### 6月22日  1.5.0升级预告
 预计在2021年7月10号左右正式发布1.5.0：
 - 读写性能优化：window和winning合并读
@@ -350,6 +360,16 @@ nohup env FIL_PROOFS_USE_GPU_COLUMN_BUILDER=1 FIL_PROOFS_USE_GPU_TREE_BUILDER=1 
 - Filecash Roadmap: https://app.instagantt.com/shared/s/ZOdqrgBwE7zfgrBGkxA7/latest
 
 The FileCash community was formally established on September 18th, 2020, and opened the Github code base on September 19th, 2020. In the initial stage, only some part of the source code will be available during the test stage. The entire source code is planned to be unveiled after mainnet’s launch.
+
+#### [The 17th version](https://github.com/filecash/lotus/releases/tag/filecash-v1.5.0) was released on August 12, 2021, and the main net has upgraded to v1.5.0 withfollowing iterations:
+- Read & write performance optimized: window and winning read merged;
+- Grouping function improved: maximum number of tasks and detail optimization of grouping;
+- Occasional winpost commit errors fixed and the windowpost message success rate improved;
+- AP optimization: AP template functionality to shorten AP time;
+- P2 optimization: opencl acceleration; multi-card parallel computing;
+- Wallet security strengthened: wallet encrypted and account funds security  guaranteed. Instructions at: https://github.com/filecash/lotus/wiki
+- Introducing open-source distributed miner by ‘moran666666’. Instructions at: https://github.com/filecash/lotus/wiki
+- Introducing open-source remote C2 services by ‘sbwtw’: offering miners with multiple options. Instructions at: https://github.com/filecash/lotus/wiki
 
 #### June 22, 2021  1.5.0 upgrade preview
 Expected to publish the 1.5.0 on July 10, 2021:
