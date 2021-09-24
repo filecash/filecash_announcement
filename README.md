@@ -17,10 +17,12 @@
 - 引入[jackoelv](https://github.com/jackoelv/bellperson)和[long568](https://github.com/long568/bellperson)开源的C2优化
 - 在开源基础上做了整合创新：自适应不同显卡的优化参数
 - 支持多显卡模式：多卡单任务 (export BELLMAN_GPU_NUM_PER_MULTIEXP=2  #C2任务使用的显卡数，默认1)
+
 | 显卡 | 原版 | 优化版 | 提升效率 |
 |:--:|:--:|:--:|:--:|
 | 2080 Ti | 28m | 16m | 42% |
 | 3090 | 22m | 12m | 45% |
+
 ```
 # 编译C2社区优化版
 git clone https://github.com/filecash/lotus_builder --branch=filecash/v1.5.0-c2 filecash-150c2 
@@ -380,10 +382,12 @@ The FileCash community was formally established on September 18th, 2020, and ope
 - Introducing [jackoelv](https://github.com/jackoelv/bellperson) and [long568](https://github.com/long568/bellperson) and open-sourced optimization;
 - Integrated innovation on the basis of open source: adaptive optimization parameters of different graphics cards;
 - Support multi-graphics mode: multi-card single task (export BELLMAN_GPU_NUM_PER_MULTIEXP=2 the default number of graphics cards used by the #C2 task is 1); 
+
 | Graphics card | Original | Optimized version | Efficiency improvement |
 |:--:|:--:|:--:|:--:|
 | 2080 Ti | 28m | 16m | 42% |
 | 3090 | 22m | 12m | 45% |
+
 ```
 # Community optimized version of the C2
 git clone https://github.com/filecash/lotus_builder --branch=filecash/v1.5.0-c2 filecash-150c2 
