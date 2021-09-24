@@ -12,6 +12,21 @@
 
 很高兴Filecash社区在9月18日正式成立，已开放全部代码。
 
+
+#### 2021年9月24号，filecash发布C2社区优化版，C2计算效率有效提升40%。
+- 引入[jackoelv](https://github.com/jackoelv/bellperson)和[long568](https://github.com/long568/bellperson)开源的C2优化
+- 在开源基础上做了整合创新：自适应不同显卡的优化参数
+- 支持多显卡模式：多卡单任务 (export BELLMAN_GPU_NUM_PER_MULTIEXP=2  #C2任务使用的显卡数，默认1)
+| 显卡 | 原版 | 优化版 | 提升效率 |
+|:--:|:--:|:--:|:--:|
+| 2080 Ti | 28m | 16m | 42% |
+| 3090 | 22m | 12m | 45% |
+```
+# 编译C2社区优化版
+git clone https://github.com/filecash/lotus_builder --branch=filecash/v1.5.0-c2 filecash-150c2 
+cd filecash-150c2 && bash build.sh -a -y 
+```
+
 #### 2021年8月12号发布[第十七个版本](https://github.com/filecash/lotus/releases/tag/filecash-v1.5.0)，主网代码升级到v1.5.0，做了如下改进：
 - 读写性能优化：window和winning合并读
 - 完善分组功能：最大任务数和分组的细节优化
@@ -360,6 +375,20 @@ nohup env FIL_PROOFS_USE_GPU_COLUMN_BUILDER=1 FIL_PROOFS_USE_GPU_TREE_BUILDER=1 
 - Filecash Roadmap: https://app.instagantt.com/shared/s/ZOdqrgBwE7zfgrBGkxA7/latest
 
 The FileCash community was formally established on September 18th, 2020, and opened the Github code base on September 19th, 2020. In the initial stage, only some part of the source code will be available during the test stage. The entire source code is planned to be unveiled after mainnet’s launch.
+
+#### On September 24, 2021, Filecash released a community optimized version of the C2, which effectively increased the computational efficiency of C2 by 40%.
+- Introducing [jackoelv](https://github.com/jackoelv/bellperson) and [long568](https://github.com/long568/bellperson) and open-sourced optimization;
+- Integrated innovation on the basis of open source: adaptive optimization parameters of different graphics cards;
+- Support multi-graphics mode: multi-card single task (export BELLMAN_GPU_NUM_PER_MULTIEXP=2 the default number of graphics cards used by the #C2 task is 1); 
+| Graphics card | Original | Optimized version | Efficiency improvement |
+|:--:|:--:|:--:|:--:|
+| 2080 Ti | 28m | 16m | 42% |
+| 3090 | 22m | 12m | 45% |
+```
+# Community optimized version of the C2
+git clone https://github.com/filecash/lotus_builder --branch=filecash/v1.5.0-c2 filecash-150c2 
+cd filecash-150c2 && bash build.sh -a -y 
+```
 
 #### [The 17th version](https://github.com/filecash/lotus/releases/tag/filecash-v1.5.0) was released on August 12, 2021, and the main net has upgraded to v1.5.0 withfollowing iterations:
 - Read & write performance optimized: window and winning read merged;
