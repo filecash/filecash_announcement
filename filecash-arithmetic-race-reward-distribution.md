@@ -1,3 +1,7 @@
+# Filecash算力竞速大赛奖励发放细则公告
+
+[English version](#Announcement-on-Filecash-arithmetic-race-reward-distribution)
+
 Filecash算力竞速大赛已经结束，现将大赛奖励发放明细公布如下：
 - 1.本次奖励总计108000FIC。
     新矿工奖：8000 FIC
@@ -64,3 +68,6 @@ Filecash算力竞速大赛已经结束，现将大赛奖励发放明细公布如
 | [f01985](https://www.ficscout.com/zh/account/f3qgk6wtlgrobsm44b2vl65r3t2wwo5s7qizwbgdbfia66dvphplpyxx2zqtbxkmpluuq3zoaeyt2kom7g65nq) | 8 GiB | 1000 FIC | f2fquyuiz5abflihtzoeuj7aldjo5gdnen52qzufq |
 | [f01684](https://www.ficscout.com/zh/account/f3wrv4lm4by5rgqzgqpxv5e5ojtj6pkov5b2v5ei24rfusy4v46755qp3sjv2e7kz6yug6x7y72srq6agzuwpq) | 4 GiB | 1000 FIC | f2wqvnm6sqpltzumymvept6gjlm65zk7vfe2iirrq |
 
+# Announcement on Filecash arithmetic-race reward distribution
+
+[中文版本](#Filecash算力竞速大赛奖励发放细则公告)
