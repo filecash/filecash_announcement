@@ -3,10 +3,10 @@
 [English version](#Announcement-on-Filecash-arithmetic-race-reward-distribution)
 
 Filecash算力竞速大赛已经结束，现将大赛奖励发放明细公布如下：
-- 1.本次奖励总计108000FIC。
-    新矿工奖：8000 FIC
-    排名奖：100000 FIC
-- 2.矿工奖励发放规则和领取方式：
+- 1.本次奖励总计108,000 FIC
+    新矿工奖：8,000 FIC
+    排名奖：100,000 FIC
+- 2.矿工奖励发放规则和领取方式:
     新矿工奖：立即释放，发送到矿工Owner地址；
     排名奖：100天线性释放，需要矿工Owner地址授权才能领取。排名奖已于高度1008190(新加坡标准时间 2021年10月14日11:00)开始发放。
 ```
@@ -73,10 +73,10 @@ Filecash算力竞速大赛已经结束，现将大赛奖励发放明细公布如
 [中文版本](#Filecash算力竞速大赛奖励发放细则公告)
 
 The Filecash Flash-Mining Competition has ended, and the details of the awards of the competition are now announced as follows:
-- 1. The total Awards: 108,000 FIC.
+- 1.The total Awards: 108,000 FIC
     New Miner Award: 8,000 FIC
     Ranking Award: 100,000 FIC
-- 2. Miner Awards issuance rules and methods of collection:
+- 2.Miner Awards issuance rules and methods of collection:
     New Miner Award: released immediately and sent to the miner’s owner address;
     Ranking Award: 100 antennas are released, and the miner’s owner address is required to be authorized to receive it. The ranking awards have been distributed at the height of 1008190 (11:00 on October 14, 2021, Singapore Standard Time).
 ```
